@@ -28,7 +28,7 @@ For more information, please refer to <http://unlicense.org>
 
 -------------------------------------------------------------------------
 
-slide name:
+in a slide:
 
 What is the Free Software Movement?
 The free software movement campaigns to win for the users of computing the freedom that comes from free 
@@ -36,3 +36,29 @@ software. Free software puts its users in control of their own computing.
 
 is from https://www.gnu.org/home.en.html page.
 licensed under http://creativecommons.org/licenses/by-nd/4.0/.
+
+-------------------------
+
+in a slide:
+
+What is Free Software?
+The freedom to run the program as you wish, for any purpose (freedom 0)
+The freedom to study how the program works, and adapt it to your needs (freedom 1) 
+The freedom to redistribute copies so you can help your neighbor (freedom 2)
+The freedom to improve the program, and release your improvements to the public, 
+so that the whole community benefits (freedom 3)
+
+modify and copied from https://www.gnu.org/ page.
+licensed under http://creativecommons.org/licenses/by-nd/4.0/.
+
+some text deleted from end of lines.
+real text is:
+
+The freedom to run the program as you wish, for any purpose (freedom 0).
+The freedom to study how the program works, and adapt it to your needs (freedom 1). Access to the source code 
+is a precondition for this.
+The freedom to redistribute copies so you can help your neighbor (freedom 2).
+The freedom to improve the program, and release your improvements to the public, so that the whole community 
+benefits (freedom 3). Access to the source code is a precondition for this.
+
+---------------------------------------
