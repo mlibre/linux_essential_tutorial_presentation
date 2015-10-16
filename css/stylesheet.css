@@ -499,13 +499,17 @@ a:focus {
     to be able to click on other steps.
 
 */
-#overview { display: none }
+#overview
+{
+	display: none
+}
 
 /*
     We also make other steps visible and give them a pointer cursor using the
     `impress-on-` class.
 */
-.impress-on-overview .step {
+.impress-on-overview .step
+{
     opacity: 1;
     cursor: pointer;
 }
@@ -616,7 +620,8 @@ a:focus {
 /*
     ... and we will show it when the first step is active.
 */
-.impress-on-operating_system .hint {
+.impress-on-introduction .hint
+{
     /*
         We remove the transparency and position the hint in its default fixed
         position.
