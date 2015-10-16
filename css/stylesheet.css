@@ -65,6 +65,7 @@ body
     background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+
 }
 
 b, strong { font-weight: bold }
@@ -97,6 +98,15 @@ a:focus
 {
 	list-style-type:disc;
 }
+.box_shadow
+{
+	box-shadow: 0px 0px 2px #737373;
+}
+.text_good
+{
+	text-shadow: 0px 0px 1px;
+	-webkit-font-smoothing: antialiased;
+}
 
 .fallback-message
 {
@@ -112,11 +122,13 @@ a:focus
     background: #EEDC94;
 }
 
-.fallback-message p {
+.fallback-message p
+{
     margin-bottom: 10px;
 }
 
-.impress-supported .fallback-message {
+.impress-supported .fallback-message
+{
     display: none;
 }
 
@@ -150,7 +162,8 @@ a:focus
 
     Basically we remove the margin and make inactive steps a little bit transparent.
 */
-.impress-enabled .step {
+.impress-enabled .step
+{
     margin: 0;
     opacity: 0.3;
 
@@ -183,8 +196,8 @@ a:focus
 	background:    -moz-linear-gradient(90deg, #ECE9E6 10%, #f3f3f3 90%); /* FF3.6+ */
 	background:     -ms-linear-gradient(90deg, #ECE9E6 10%, #f3f3f3 90%); /* IE10 */
 	background:      -o-linear-gradient(90deg, #ECE9E6 10%, #f3f3f3 90%); /* Opera 11.10+ */
-	background:         linear-gradient(90deg, #ECE9E6 10%, #f3f3f3 90%); /* W3C */
-  
+	background:         linear-gradient(90deg, #ECE9E6 10%, #f3f3f3 90%); /* W3C */ 
+   
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
@@ -223,17 +236,16 @@ a:focus
     3D positioning along Z axis.
 */
 
-#title
+#gnu
 {
     padding: 0;
 }
 
-#title .try
+#gnu .gpl
 {
     font-size: 64px;
     position: absolute;
     top: -0.5em;
-    left: 1.5em;
 
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
@@ -242,7 +254,8 @@ a:focus
     transform:         translateZ(20px);
 }
 
-#title h1 {
+#gnu h1
+{
     font-size: 190px;
 
     -webkit-transform: translateZ(50px);
@@ -252,8 +265,9 @@ a:focus
     transform:         translateZ(50px);
 }
 
-#title .footnote {
-    font-size: 32px;
+#gnu .footnote
+{
+    font-size: 50px;
 }
 
 /*
@@ -262,7 +276,8 @@ a:focus
 
     Let's move to 'big thoughts' with centered text and custom font sizes.
 */
-#big {
+#big
+{
     width: 600px;
     text-align: center;
     font-size: 60px;
