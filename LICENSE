@@ -26,9 +26,9 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org>
 
--------------------------------------------------------------------------
+---------------------------------------------------------------------
 
-in a slide:
+in slide N:
 
 What is the Free Software Movement?
 The free software movement campaigns to win for the users of computing the freedom that comes from free 
@@ -37,9 +37,9 @@ software. Free software puts its users in control of their own computing.
 is from https://www.gnu.org/home.en.html page.
 licensed under http://creativecommons.org/licenses/by-nd/4.0/.
 
--------------------------
+---------------------------------------------------------------------
 
-in a slide:
+in slide N:
 
 What is Free Software?
 The freedom to run the program as you wish, for any purpose (freedom 0)
@@ -48,7 +48,7 @@ The freedom to redistribute copies so you can help your neighbor (freedom 2)
 The freedom to improve the program, and release your improvements to the public, 
 so that the whole community benefits (freedom 3)
 
-modify and copied from https://www.gnu.org/ page.
+texts modify and copied from https://www.gnu.org/ page.
 licensed under http://creativecommons.org/licenses/by-nd/4.0/.
 
 some text deleted from end of lines.
@@ -61,4 +61,33 @@ The freedom to redistribute copies so you can help your neighbor (freedom 2).
 The freedom to improve the program, and release your improvements to the public, so that the whole community 
 benefits (freedom 3). Access to the source code is a precondition for this.
 
----------------------------------------
+---------------------------------------------------------------------
+
+in slide N:
+
+Free license
+
+To make a software free, you need to release it under a free software license
+gnu normally use the GNU General Public License (GNU GPL) 
+
+texts modify and copied from https://www.gnu.org/ page.
+licensed under http://creativecommons.org/licenses/by-nd/4.0/.
+
+real text:
+
+To make it free software, you need to release it under a free software license. We normally use the GNU 
+General Public License (GNU GPL), but occasionally we use other free software licenses.
+
+and:
+
+GNU GPL
+
+Copyleft
+The source code of the work must be made available under the same license
+
+copied form http://choosealicense.com/licenses/ page.
+
+---------------------------------------------------------------------
+
+in slide N:
+
