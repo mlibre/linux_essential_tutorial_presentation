@@ -94,20 +94,6 @@ a:focus
     text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
 }
 
-.ul_disc
-{
-	list-style-type:disc;
-}
-.box_shadow
-{
-	box-shadow: 0px 0px 2px #737373;
-}
-.text_good
-{
-	text-shadow: 0px 0px 1px;
-	-webkit-font-smoothing: antialiased;
-}
-
 .fallback-message
 {
     font-family: sans-serif;
@@ -368,15 +354,17 @@ a:focus
 }
 
 /*
-    The 'imagination' step is again some boring font-sizing.
+    The 'embedded_system' step is again some boring font-sizing.
 */
 
-#imagination {
-    width: 600px;
+#embedded_system
+{
+    width: 700px;
 }
 
-#imagination .imagination {
-    font-size: 78px;
+#embedded_system .embedded_system
+{
+    font-size: 70px;
 }
 
 /*
@@ -531,9 +519,6 @@ a:focus
 
     But I wanted to have some CSS fun and avoid additional scripting...
 
-    Let me explain it first, so maybe the transition magic will be more readable
-    when you read the code.
-
     First of all I wanted the hint to appear only when user is idle for a while.
     You can't detect the 'idle' state in CSS, but I delayed a appearing of the
     hint by 5s using transition-delay.
@@ -564,7 +549,8 @@ a:focus
     I know, it sounds complicated ... maybe it would be easier with the code?
 */
 
-.hint {
+.hint
+{
     /*
         We hide the hint until presentation is started and from browsers not supporting
         impress.js, as they will have a linear scrollable view ...
@@ -674,8 +660,24 @@ a:focus
 
     There is one very important thing to notice about this workaround - it makes
     everything 'unclickable' except what's in #impress element.
-
-    So use it wisely ... or don't use at all.
 */
 .impress-enabled          { pointer-events: none }
 .impress-enabled #impress { pointer-events: auto }
+
+.width_1400
+{
+	width:1400px;
+}
+.ul_disc
+{
+	list-style-type:disc;
+}
+.box_shadow
+{
+	box-shadow: 0px 0px 2px #737373;
+}
+.text_good
+{
+	text-shadow: 0px 0px 1px;
+	-webkit-font-smoothing: antialiased;
+}
