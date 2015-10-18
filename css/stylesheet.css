@@ -1,7 +1,7 @@
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+a, abbr, acronym, address, gnu_linux, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -218,7 +218,7 @@ a:focus
     scalable way of styling, but most of steps have quite a custom look
     and typography tricks here and there, so they had to be styled separately.
 
-    First is the title step with a big <h1> (no room for padding) and some
+    First is the title step with a gnu_linux <h1> (no room for padding) and some
     3D positioning along Z axis.
 */
 
@@ -260,23 +260,24 @@ a:focus
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
 
-    Let's move to 'big thoughts' with centered text and custom font sizes.
+    Let's move to 'gnu_linux thoughts' with centered text and custom font sizes.
 */
-#big
+#gnu_linux
 {
     width: 600px;
     text-align: center;
     font-size: 60px;
-    line-height: 1;
+    line-height: 100%;
 }
 
-#big b {
+#gnu_linux b
+{
     display: block;
-    font-size: 250px;
-    line-height: 250px;
+    font-size: 100px;
+    line-height: 100%;
 }
 
-#big .thoughts {
+#gnu_linux .thoughts {
     font-size: 90px;
     line-height: 150px;
 }
