@@ -142,20 +142,91 @@ http://creativecommons.org/licenses/by-sa/3.0 license.
 
 ---------------------------------------------------------------------
 
-"proprietary software, rule and idea"
-and
-"The collapse of the community"
-and
-"GNU/free operating system"
-and
-"Stallman and GNU"
-and
-"GNU Emacs"
-and
-"GCC"
+#/gnu_2
 
-all the text is my personal impression from http://www.gnu.org/gnu/thegnuproject.en.html page
-licensed under the http://creativecommons.org/licenses/by-nd/3.0/us/
+"The rule made by the owners of proprietary software was, 
+“If you share with your neighbor, you are a pirate. If you want any changes, beg us to 
+make them.”
+The idea that the proprietary software social system—the system that says you are 
+not allowed to share or change software—is antisocial, that it is unethical, that it is simply wrong,"
+and
+"what was needed first was an operating system"
+and
+"make the system compatible with Unix"
+and
+"GNU's Not Unix"
+
+from: http://www.gnu.org/gnu/thegnuproject.en.html
+licensed under http://creativecommons.org/licenses/by-nd/4.0/
+
+---------------------------------------------------------------------
+
+#/gnu_3
+
+"I therefore decided that my first program for the GNU Project would be a multilanguage, multiplatform 
+compiler."
+
+and
+
+"I therefore decided that my first program for the GNU Project would be a multilanguage, multiplatform 
+compiler."
+
+and
+
+"I concluded I would have to write a new compiler from scratch."
+
+and
+
+"That new compiler is now known as GCC; none of the Pastel compiler is used in it, 
+but I managed to adapt and use the C front end that I had written. But that was some 
+years later; first, I worked on GNU Emacs."
+
+from: http://www.gnu.org/gnu/thegnuproject.en.html
+licensed under http://creativecommons.org/licenses/by-nd/4.0/
+
+AND
+
+"GNU Compiler Collection"
+
+from: https://en.wikipedia.org/wiki/GNU_Compiler_Collection
+under the
+https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+or
+http://creativecommons.org/licenses/by-sa/3.0 license.
+
+---------------------------------------------------------------------
+
+/#copyleft
+
+In 1980, the copyright law was extended to computer programs in the United States
+
+from: https://en.wikipedia.org/wiki/Free_and_open-source_software
+under the
+https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+or
+http://creativecommons.org/licenses/by-sa/3.0 license.
+
+AND
+
+"Copyleft uses copyright law, but flips it over to serve the opposite of its usual purpose: instead of a means 
+for restricting a program, it becomes a means for keeping the program free."
+
+and
+
+"The principal goal of GNU is to be free software."
+
+and
+
+"The specific implementation of copyleft that we use for most GNU software is the GNU General Public License, 
+or GNU GPL for short."
+
+and
+
+"So we needed to use distribution terms that would prevent 
+GNU software from being turned into proprietary software. The method we use is called “copyleft”."
+
+from: http://www.gnu.org/gnu/thegnuproject.en.html
+licensed under http://creativecommons.org/licenses/by-nd/4.0/
 
 ---------------------------------------------------------------------
 
