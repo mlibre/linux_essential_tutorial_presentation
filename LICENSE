@@ -108,10 +108,40 @@ licensed under http://creativecommons.org/licenses/by-nd/4.0/
 
 ---------------------------------------------------------------------
 
-in slide N:
+#/gnu_1
 
-"how its start?"
+"When I started working at the MIT Artificial Intelligence Lab in 1971, 
+I became part of a software-sharing community that had existed for many years."
 and
+"As a member of this community, an AI Lab staff system hacker, my job was to improve this system."
+and
+"We did not call our software “free software”, because that term did not yet exist; but that is what it was."
+and
+"The collapse of the community"
+and
+"ITS were obsolete"
+and
+"The modern computers of the era, such as the VAX or the 68020, 
+had their own operating systems, but none of them were free software "
+and
+"sign a nondisclosure agreement even to get an executable copy."
+and
+"This meant that the first step in using a computer was to promise not to help your neighbor"
+
+from: http://www.gnu.org/gnu/thegnuproject.en.html
+licensed under http://creativecommons.org/licenses/by-nd/4.0/
+
+AND
+
+"ITS - assembly"
+Understood from: https://en.wikipedia.org/wiki/Incompatible_Timesharing_System
+under the 
+https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+or
+http://creativecommons.org/licenses/by-sa/3.0 license.
+
+---------------------------------------------------------------------
+
 "proprietary software, rule and idea"
 and
 "The collapse of the community"
