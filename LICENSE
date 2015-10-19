@@ -72,6 +72,7 @@ form: https://en.wikipedia.org/wiki/Linux_distribution
 under the https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License 
 or
 http://creativecommons.org/licenses/by-sa/3.0
+
 ---------------------------------------------------------------------
 
 debian logo
@@ -93,67 +94,17 @@ under the http://creativecommons.org/licenses/by-nc/3.0/ license
 
 ---------------------------------------------------------------------
 
-in slide N:
+#/brief_history_of_linux
 
-brief history slide.
-text "Designed to ensure software freedom for all"
+text
+"In 1991, Linus Torvalds developed a Unix-compatible kernel and called it Linux. </li>
+It was proprietary at first,
+but in 1992, he made it free software;
+combining Linux with the not-quite-complete GNU system resulted in a complete free 
+operating system"
 
-copied form https://en.wikipedia.org/wiki/Free_software page
-under the 
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-or
-https://creativecommons.org/licenses/by-sa/3.0/ licesne
-
----------------------------------------------------------------------
-
-in slide N:
-
-"The concept of copyleft was described in Richard Stallman's GNU Manifesto in 1985, where he wrote:"
-
-and
-
-"GNU is not in the public domain. Everyone will be permitted to modify and redistribute GNU, but no distributor 
-will be allowed to restrict its further redistribution. That is to say, proprietary modifications will not be 
-allowed. I want to make sure that all versions of GNU remain free."
-
-copied from https://en.wikipedia.org/wiki/Copyleft page under the 
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-or
-https://creativecommons.org/licenses/by-sa/3.0/ licesne
-
----------------------------------------------------------------------
-
-in slide N:
-
-In 1983, Richard Stallman, 
-longtime member of the hacker community at the MIT Artificial Intelligence Laboratory, 
-announced the GNU project, 
-saying that he had become frustrated with the effects of the 
-change in culture of the computer industry and its users.
-
-copied from https://en.wikipedia.org/wiki/Free_and_open-source_software page.
-under the 
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-or
-https://creativecommons.org/licenses/by-sa/3.0/ licesne.
-
----------------------------------------------------------------------
-
-in slide N:
-
-The concept of copyleft was described in Richard Stallman's GNU Manifesto in 1985, where he wrote:
-
-GNU is not in the public domain. Everyone will be permitted to modify and redistribute GNU, but no distributor 
-will be allowed to restrict its further redistribution. That is to say, proprietary modifications will not be 
-allowed. I want to make sure that all versions of GNU remain free.
-
-copied from
-https://en.wikipedia.org/wiki/Copyleft
-
-under the 
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-or
-https://creativecommons.org/licenses/by-sa/3.0/ licesne.
+from: http://www.gnu.org/gnu/thegnuproject.en.html
+licensed under http://creativecommons.org/licenses/by-nd/4.0/
 
 ---------------------------------------------------------------------
 
