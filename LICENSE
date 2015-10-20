@@ -97,14 +97,27 @@ under the http://creativecommons.org/licenses/by-nc/3.0/ license
 #/brief_history_of_linux
 
 text
-"In 1991, Linus Torvalds developed a Unix-compatible kernel and called it Linux. </li>
-It was proprietary at first,
-but in 1992, he made it free software;
-combining Linux with the not-quite-complete GNU system resulted in a complete free 
+"In 1991, Linus Torvalds developed a Unix-compatible kernel and called it Linux."
+and
+"It was proprietary at first,"
+and
+"but in 1992, he made it free software;"
+and
+"combining Linux with the not-quite-complete GNU system resulted in a complete free 
 operating system"
 
 from: http://www.gnu.org/gnu/thegnuproject.en.html
 licensed under http://creativecommons.org/licenses/by-nd/4.0/
+
+AND
+"received support and assistance from volunteers who succeeded in creating a complete and functional kernel"
+and
+"Linux is Unix-like, but was developed without any Unix code"
+
+from: https://en.wikipedia.org/wiki/Operating_system
+https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+or
+http://creativecommons.org/licenses/by-sa/3.0 license.
 
 ---------------------------------------------------------------------
 
