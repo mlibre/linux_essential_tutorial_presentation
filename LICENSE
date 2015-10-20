@@ -33,9 +33,31 @@ For more information, please refer to <http://unlicense.org>
 
 ---------------------------------------------------------------------
 
-whene you see/open/go a every part of project you that address in url page.
+when you see/open/go a every part of project you that address in url page.
 it's showen by a "#" after real URL.
 i describe license by these address.
+
+---------------------------------------------------------------------
+
+created with impress.js under the mit and gpl license.
+see this lines.
+/**
+ * impress.js
+ *
+ * impress.js is a presentation tool based on the power of CSS3 transforms and transitions
+ * in modern browsers and inspired by the idea behind prezi.com.
+ *
+ *
+ * Copyright 2011-2012 Bartek Szopka (@bartaz)
+ *
+ * Released under the MIT and GPL Licenses.
+ *
+ * ------------------------------------------------
+ *  author:  Bartek Szopka
+ *  version: 0.5.3
+ *  url:     http://bartaz.github.com/impress.js/
+ *  source:  http://github.com/bartaz/impress.js/
+ */
 
 ---------------------------------------------------------------------
 

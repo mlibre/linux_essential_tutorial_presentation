@@ -1,4 +1,3 @@
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, gnu_linux, cite, code,
@@ -283,78 +282,11 @@ a:focus
 /*
     'Tiny ideas' just need some tiny styling.
 */
-#tiny {
+#tiny
+{
     width: 500px;
     text-align: center;
 }
-
-/*
-    This step has some animated text ...
-*/
-#ing { width: 500px }
-
-/*
-    ... so we define display to `inline-block` to enable transforms and
-    transition duration to 0.5s ...
-*/
-#ing b {
-    display: inline-block;
-    -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
-}
-
-/*
-    ... and we want 'positioning` word to move up a bit when the step gets
-    `present` class ...
-*/
-#ing.present .positioning {
-    -webkit-transform: translateY(-10px);
-    -moz-transform:    translateY(-10px);
-    -ms-transform:     translateY(-10px);
-    -o-transform:      translateY(-10px);
-    transform:         translateY(-10px);
-}
-
-/*
-    ... 'rotating' to rotate a quarter of a second later ...
-*/
-#ing.present .rotating {
-    -webkit-transform: rotate(-10deg);
-    -moz-transform:    rotate(-10deg);
-    -ms-transform:     rotate(-10deg);
-    -o-transform:      rotate(-10deg);
-    transform:         rotate(-10deg);
-
-    -webkit-transition-delay: 0.25s;
-    -moz-transition-delay:    0.25s;
-    -ms-transition-delay:     0.25s;
-    -o-transition-delay:      0.25s;
-    transition-delay:         0.25s;
-}
-
-/*
-    ... and 'scaling' to scale down after another quarter of a second.
-*/
-#ing.present .scaling {
-    -webkit-transform: scale(0.7);
-    -moz-transform:    scale(0.7);
-    -ms-transform:     scale(0.7);
-    -o-transform:      scale(0.7);
-    transform:         scale(0.7);
-
-    -webkit-transition-delay: 0.5s;
-    -moz-transition-delay:    0.5s;
-    -ms-transition-delay:     0.5s;
-    -o-transition-delay:      0.5s;
-    transition-delay:         0.5s;
-}
-
-/*
-    The 'embedded_system' step is again some boring font-sizing.
-*/
 
 #embedded_system
 {
@@ -539,7 +471,7 @@ a:focus
     CSS, so I needed a way to not only fade out the hint but also move it out of
     the screen.
 
-    I solved this problem by positioning the hint below the bottom of the screen
+    I solved this problem by positioningpositioning the hint below the bottom of the screen
     with CSS transform and moving it up to show it. But I also didn't want this move
     to be visible. I wanted the hint only to fade in and out visually, so I delayed
     the fade in transition, so it starts when the hint is already in its correct
@@ -711,14 +643,4 @@ a:focus
 .line_height_100
 {
 	line-height: 100%;
-}
-@font-face
-{
-	font-family: "Amaranth-Regular";
-	src: url("font/amaranth/Amaranth-Regular.otf") format("opentype");
-}
-@font-face
-{
-	font-family: 'OpenSans-Regular';
-	src: url("font/open_sans/OpenSans-Regular.ttf");
 }
