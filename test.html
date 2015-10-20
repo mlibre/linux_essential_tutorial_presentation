@@ -1,0 +1,940 @@
+<!doctype html>
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+  <title>
+    Linux Essentials
+  </title>
+  
+  <meta name="description" content="Linux Essentials presentation (tutorial)" />
+  <meta name="author" content="not important" />
+  <meta name="email" content="m.gh@linuxmail.org" />
+  
+  <link href="css/font.css" rel="stylesheet" />
+  <link href="test.css" rel="stylesheet" />
+  </head>
+  
+  <body>
+    
+	<table class="table text_good" summary="A description of the hierarchy specified in the FHS.">
+      <thead>
+        <tr>
+          <th>
+            Directory 
+          </th>
+          <th>
+            Description 
+          </th>
+        </tr>
+      </thead>
+      <tr>
+		<td>
+          <dl>
+            <dd>
+              <code>
+                /
+              </code>
+            </dd>
+          </dl>
+      </td>
+      <td>
+        Primary hierarchy root and root directory of the entire file system hierarchy.
+      </td>
+      </tr>
+      <tr>
+		<td>
+          <dl>
+            <dd>
+              <code>
+                /bin
+              </code>
+            </dd>
+          </dl>
+      </td>
+      <td>
+        Essential command binaries that need to be available in single user mode; for all users, e.g., cat, ls, cp.
+      </td>
+      </tr>
+      <tr>
+		<td>
+          <dl>
+            <dd>
+              <code>
+                /boot 
+              </code>
+            </dd>
+          </dl>
+      </td>
+      <td>
+        Boot loader files, e.g., kernels, initrd.
+      </td>
+      </tr>
+      <tr>
+		<td>
+          <dl>
+            <dd>
+              <code>
+                /dev 
+              </code>
+            </dd>
+          </dl>
+      </td>
+      <td>
+        Essential devices, e.g., /dev/null.
+      </td>
+      </tr>
+      <tr>
+		<td>
+          <dl>
+            <dd>
+              <code>
+                /etc
+              </code>
+            </dd>
+          </dl>
+      </td>
+      <td>
+        Host-specific system-wide configuration files
+        <br/>
+        <p>
+          There has been controversy over the meaning of the name itself. In early versions of the UNIX Implementation Document from Bell labs, /etc is referred to as the etcetera directory,
+          <sup>
+            <a>
+              <span>
+                [
+              </span>
+              2
+              <span>
+                ]
+              </span>
+            </a>
+          </sup>
+          as this directory historically held everything that did not belong elsewhere (however, the FHS restricts /etc to static configuration files and may not contain binaries).
+          <sup>
+            <a>
+              <span>
+                [
+              </span>
+              3
+              <span>
+                ]
+              </span>
+            </a>
+          </sup>
+          Since the publication of early documentation, 
+          the directory name has been re-explained in various ways. Recent interpretations include backronyms
+          such as "Editable Text Configuration" or "Extended Tool Chest".
+        </p>
+      </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /etc/opt
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Configuration files for add-on packages that are stored in 
+          <code>
+            /opt/
+          </code>
+          .
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /etc/sgml
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Configuration files, such as catalogs, for software that processes SGML.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /etc/X11
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Configuration files for the 
+          <a href="/wiki/X_Window_System" title="X Window System">
+            X Window System
+          </a>
+          , version 11.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /etc/xml
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Configuration files, such as catalogs, for software that processes 
+          <a href="/wiki/XML" title="XML">
+            XML
+          </a>
+          .
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /home
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Users' 
+          <a href="/wiki/Home_directory" title="Home directory">
+            home directories
+          </a>
+          , containing saved files, personal settings, etc.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /lib
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          <a href="/wiki/Library_(computer_science)" title="Library (computer science)" class="mw-redirect">
+            Libraries
+          </a>
+          essential for the 
+          <a href="/wiki/Binaries" title="Binaries" class="mw-redirect">
+            binaries
+          </a>
+          in 
+          <code>
+            /bin/
+          </code>
+          and 
+          <code>
+            /sbin/
+          </code>
+          .
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /lib&lt;qual&gt;
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Alternate format essential libraries. Such directories are optional, but if they exist, they have some requirements.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /media
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Mount points for 
+          <a href="/wiki/Removable_media" title="Removable media">
+            removable media
+          </a>
+          such as 
+          <a href="/wiki/CD-ROM" title="CD-ROM">
+            CD-ROMs
+          </a>
+          (appeared in FHS-2.3).
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /mnt
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Temporarily 
+          <a href="/wiki/Mount_(computing)" title="Mount (computing)">
+            mounted
+          </a>
+          filesystems.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /opt
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Optional 
+          <a href="/wiki/Application_software" title="Application software">
+            application software
+          </a>
+          
+          <a href="/wiki/Software_package_(installation)" title="Software package (installation)" class="mw-redirect">
+            packages
+          </a>
+          .
+          <sup id="cite_ref-.2Fopt_5-0" class="reference">
+            <a href="#cite_note-.2Fopt-5">
+              <span>
+                [
+              </span>
+              5
+              <span>
+                ]
+              </span>
+            </a>
+          </sup>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                <a href="/wiki//proc" title="/proc" class="mw-redirect">
+                  /proc
+                </a>
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Virtual 
+          <a href="/wiki/File_system" title="File system">
+            filesystem
+          </a>
+          providing 
+          <a href="/wiki/Process_(computing)" title="Process (computing)">
+            process
+          </a>
+          and 
+          <a href="/wiki/Kernel_(computing)" title="Kernel (computing)" class="mw-redirect">
+            kernel
+          </a>
+          information as files. In Linux, corresponds to a 
+          <a href="/wiki/Procfs" title="Procfs">
+            procfs
+          </a>
+          mount.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /root
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          <a href="/wiki/Home_directory" title="Home directory">
+            Home directory
+          </a>
+          for the 
+          <a href="/wiki/Superuser" title="Superuser">
+            root
+          </a>
+          user.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /run
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Run-time variable data: Information about the running system since last boot, 
+          <i>
+            e.g.
+          </i>
+          , currently logged-in users and running 
+          <a href="/wiki/Daemon_(computer_software)" title="Daemon (computer software)" class="mw-redirect">
+            daemons
+          </a>
+          .
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /sbin
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Essential system binaries, 
+          <i>
+            e.g.
+          </i>
+          , fsck, init, route.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /srv
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Site-specific data which are served by the system.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /tmp
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Temporary files (see also 
+          <code>
+            /var/tmp
+          </code>
+          ). Often not preserved between system reboots, and may be severely size restricted.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /usr
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          <i>
+            Secondary hierarchy
+          </i>
+          for read-only user data; contains the majority of (
+          <a href="/wiki/Multi-user" title="Multi-user">
+            multi-
+          </a>
+          )user utilities and applications.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /usr/bin
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Non-essential command 
+          <a href="/wiki/Executable" title="Executable">
+            binaries
+          </a>
+          (not needed in 
+          <a href="/wiki/Single_user_mode" title="Single user mode">
+            single user mode
+          </a>
+          ); for all users.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /usr/include
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Standard include files.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /usr/lib
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+			Libraries for the binaries in 
+          <code>
+            /usr/bin/
+          </code>
+          and 
+          <code>
+            /usr/sbin/
+          </code>
+          .
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /usr/lib&lt;qual&gt;
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Alternate format libraries (optional).
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /usr/local
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          <i>
+            Tertiary hierarchy
+          </i>
+          for local data, specific to this host. Typically has further subdirectories, 
+          <i>
+            e.g.
+          </i>
+          , 
+          <code>
+            bin/
+          </code>
+          , 
+          <code>
+            lib/
+          </code>
+          , 
+          <code> share/ </code>
+          .
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /usr/sbin
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Non-essential system binaries, e.g., daemons for various network-services.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /usr/share
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Architecture-independent (shared) data.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /usr/src
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          <a href="/wiki/Source_code" title="Source code">
+            Source code
+          </a>
+          , 
+          <i>
+            e.g.
+          </i>
+          , the kernel source code with its header files.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /usr/X11R6
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+			X Window System, Version 11, Release 6 (up to FHS-2.3, optional).
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <code>
+                /var
+              </code>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Variable files—files whose content is expected to continually change during normal operation of the system—such as logs, spool files, and temporary e-mail files.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /var/cache
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Application cache data. Such data are locally generated as a result of time-consuming I/O or calculation. The application must be able to regenerate or restore the data. The cached files can be deleted without loss of data.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /var/lib
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          State information. Persistent data modified by programs as they run, e.g., databases, packaging system metadata, etc.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /var/lock
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Lock files. Files keeping track of resources currently in use.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /var/log
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Log files. Various logs.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /var/mail
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Users' 
+          <a href="/wiki/E-mail" title="E-mail" class="mw-redirect">
+            mailboxes
+          </a>
+          .
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /var/opt
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Variable data from add-on packages that are stored in 
+          <code>
+            /opt/
+          </code>
+          .
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /var/run
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Run-time variable data. This directory contains system information data describing the system since it was booted.
+          <br />
+          <p>
+            In FHS 3.0, 
+            <code>
+              /var/run
+            </code>
+            is replaced by 
+            <code>
+              /run
+            </code>
+            ; a system should either continue to provide a 
+            <code>
+              /var/run
+            </code>
+            directory, or provide a symbolic link from 
+            <code>
+              /var/run
+            </code>
+            to 
+            <code>
+              /run
+            </code>
+            , for backwards compatibility.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /var/spool
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          <a href="/wiki/Spooling" title="Spooling">
+            Spool
+          </a>
+          for tasks waiting to be processed, 
+          <i>
+            e.g.
+          </i>
+          , print queues and outgoing mail queue.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <dl>
+                    <dd>
+                      <code>
+                        /var/spool/mail
+                      </code>
+                    </dd>
+                  </dl>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          <a href="/wiki/Deprecated" title="Deprecated" class="mw-redirect">
+            Deprecated
+          </a>
+          location for users' mailboxes.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <dl>
+            <dd>
+              <dl>
+                <dd>
+                  <code>
+                    /var/tmp
+                  </code>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+        </td>
+        <td>
+          Temporary files to be preserved between reboots.
+        </td>
+      </tr>
+  </table>
+  </body>
+</html>

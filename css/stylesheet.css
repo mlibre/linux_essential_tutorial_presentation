@@ -644,3 +644,7 @@ a:focus
 {
 	line-height: 100%;
 }
+.text_center
+{
+	text-align: center;
+}

@@ -373,7 +373,7 @@
 		<img src="images/raspberry_pi.jpg" style="width: 100%; height:100%; border-radius:5%;">
 	</div>
 	
-	<!-- ---------------------------  ADSL modem router internals  --------------------------- -->
+	<!-- --------------------------- ADSL modem router internals --------------------------- -->
 	<div id="ADSL_modem_router_internals" class="step width_1400" data-x="-1500" data-y="3000" data-z="-2500" data-rotate="180" data-scale="0.8">
 		<ul style="float:left;font-size:22px">
 			<li> 1. Telephone decoupling electronics (for ADSL). </li>
@@ -399,15 +399,29 @@
 		<span style="float:right; margin-right:280px; font-size:20px"> ADSL Modem/router </span>
 	</div>
  
-    <div id="kernel_image" class="step width_1400" data-x="-3000" data-y="1400" data-rotate-y="90" data-rotate-x="-90" data-scale="4">
+ 	<!-- --------------------------- linux structure --------------------------- -->
+    <div id="linux_structure_image" class="step width_1400" data-x="-3000" data-y="1400" data-rotate-y="90" data-rotate-x="-90" data-scale="4">
         <img src="images/linux_kernel_and_etc.svg" width="100%" height="100%">
     </div>
 		
-		
-	<div id="fhs" class="step" data-x="4500" data-y="3350" data-scale="6">
+ 	<!-- --------------------------- fhs --------------------------- -->
+	<div id="fhs" class="step text_good text_center" data-x="2600" data-y="3200" data-scale="6">
         <strong> FHS </strong>
     </div>
-   
+	
+	<!-- --------------------------- fhs start--------------------------- -->
+	<div id="fhs_start" class="step text_good width_1400" data-x="2600" data-y="3400" data-z="-2000" data-scale="0.1">
+		<strong> Filesystem  Hierarchy Standard </strong>
+		<br>
+		<br>
+		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> It is maintained by the Linux Foundation. The latest version is 3.0, released on 3 June 2015. </li>
+			<li> Currently it is only used by Linux distributions. </li>
+			<li> In the FHS all files and directories appear under the root directory /, 
+			even if they are stored on different physical or virtual devices. </li>
+		</ul>
+	</div>
+
     <div id="source" class="step" data-x="6300" data-y="3000" data-rotate="20" data-scale="4">
         <p>want to know more?</p>
         <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
@@ -436,8 +450,8 @@
 
 
 <!-- to list
-fsf
-linux kernel
+command line
 fhs
+fsf
 loading
 -->
