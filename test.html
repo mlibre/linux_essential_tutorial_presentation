@@ -2,24 +2,24 @@
 
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-  <title>
-    Linux Essentials
-  </title>
-  
-  <meta name="description" content="Linux Essentials presentation (tutorial)" />
-  <meta name="author" content="not important" />
-  <meta name="email" content="m.gh@linuxmail.org" />
-  
-  <link href="css/font.css" rel="stylesheet" />
-  <link href="test.css" rel="stylesheet" />
-  </head>
+	<head>
+		<meta charset="utf-8" />
+		<title>
+			Linux Essentials
+		</title>
+	  
+		<meta name="description" content="Linux Essentials presentation (tutorial)" />
+		<meta name="author" content="not important" />
+		<meta name="email" content="m.gh@linuxmail.org" />
+
+		<link href="css/font.css" rel="stylesheet" />
+		<link href="css/table.css" rel="stylesheet" />
+	</head>
   
   <body>
     
 	<table class="table text_good" summary="A description of the hierarchy specified in the FHS.">
-      <thead>
+      <thead class="thead">
         <tr>
           <th>
             Directory 
@@ -145,11 +145,7 @@
           </dl>
         </td>
         <td>
-          Configuration files for the 
-          <a href="/wiki/X_Window_System" title="X Window System">
-            X Window System
-          </a>
-          , version 11.
+          Configuration files for the X Window System, version 11.
         </td>
       </tr>
  
@@ -164,11 +160,7 @@
           </dl>
         </td>
         <td>
-          Users' 
-          <a href="/wiki/Home_directory" title="Home directory">
-            home directories
-          </a>
-          , containing saved files, personal settings, etc.
+          Users'home directories, containing saved files, personal settings, etc.
         </td>
       </tr>
       <tr>
@@ -182,14 +174,7 @@
           </dl>
         </td>
         <td>
-          <a href="/wiki/Library_(computer_science)" title="Library (computer science)" class="mw-redirect">
-            Libraries
-          </a>
-          essential for the 
-          <a href="/wiki/Binaries" title="Binaries" class="mw-redirect">
-            binaries
-          </a>
-          in 
+			Libraries essential for the binaries in 
           <code>
             /bin/
           </code>
@@ -212,15 +197,7 @@
           </dl>
         </td>
         <td>
-          Mount points for 
-          <a href="/wiki/Removable_media" title="Removable media">
-            removable media
-          </a>
-          such as 
-          <a href="/wiki/CD-ROM" title="CD-ROM">
-            CD-ROMs
-          </a>
-          (appeared in FHS-2.3).
+          Mount points for removable media such as CD-ROMs(appeared in FHS-2.3).
         </td>
       </tr>
       <tr>
@@ -234,11 +211,7 @@
           </dl>
         </td>
         <td>
-          Temporarily 
-          <a href="/wiki/Mount_(computing)" title="Mount (computing)">
-            mounted
-          </a>
-          filesystems.
+          Temporarily mounted filesystems.
         </td>
       </tr>
       <tr>
@@ -252,26 +225,7 @@
           </dl>
         </td>
         <td>
-          Optional 
-          <a href="/wiki/Application_software" title="Application software">
-            application software
-          </a>
-          
-          <a href="/wiki/Software_package_(installation)" title="Software package (installation)" class="mw-redirect">
-            packages
-          </a>
-          .
-          <sup id="cite_ref-.2Fopt_5-0" class="reference">
-            <a href="#cite_note-.2Fopt-5">
-              <span>
-                [
-              </span>
-              5
-              <span>
-                ]
-              </span>
-            </a>
-          </sup>
+          Optional application software packages.
         </td>
       </tr>
       <tr>
@@ -287,23 +241,7 @@
           </dl>
         </td>
         <td>
-          Virtual 
-          <a href="/wiki/File_system" title="File system">
-            filesystem
-          </a>
-          providing 
-          <a href="/wiki/Process_(computing)" title="Process (computing)">
-            process
-          </a>
-          and 
-          <a href="/wiki/Kernel_(computing)" title="Kernel (computing)" class="mw-redirect">
-            kernel
-          </a>
-          information as files. In Linux, corresponds to a 
-          <a href="/wiki/Procfs" title="Procfs">
-            procfs
-          </a>
-          mount.
+          Virtual filesystem providing process and kernel information as files. In Linux, corresponds to a procfs mount.
         </td>
       </tr>
       <tr>
@@ -317,14 +255,7 @@
           </dl>
         </td>
         <td>
-          <a href="/wiki/Home_directory" title="Home directory">
-            Home directory
-          </a>
-          for the 
-          <a href="/wiki/Superuser" title="Superuser">
-            root
-          </a>
-          user.
+			Home directory for the root user.
         </td>
       </tr>
       <tr>
@@ -342,11 +273,7 @@
           <i>
             e.g.
           </i>
-          , currently logged-in users and running 
-          <a href="/wiki/Daemon_(computer_software)" title="Daemon (computer software)" class="mw-redirect">
-            daemons
-          </a>
-          .
+          , currently logged-in users and running daemons.
         </td>
       </tr>
       <tr>
@@ -400,11 +327,7 @@
           <i>
             Secondary hierarchy
           </i>
-          for read-only user data; contains the majority of (
-          <a href="/wiki/Multi-user" title="Multi-user">
-            multi-
-          </a>
-          )user utilities and applications.
+          for read-only user data; contains the majority of (multi-)user utilities and applications.
         </td>
       </tr>
       <tr>
@@ -556,10 +479,7 @@
           </dl>
         </td>
         <td>
-          <a href="/wiki/Source_code" title="Source code">
-            Source code
-          </a>
-          , 
+			Source code,
           <i>
             e.g.
           </i>
@@ -709,10 +629,7 @@
           </dl>
         </td>
         <td>
-          <a href="/wiki/Spooling" title="Spooling">
-            Spool
-          </a>
-          for tasks waiting to be processed, 
+			Spool for tasks waiting to be processed, 
           <i>
             e.g.
           </i>
