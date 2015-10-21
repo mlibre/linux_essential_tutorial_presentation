@@ -129,46 +129,7 @@
         </p>
       </td>
       </tr>
-      <tr>
-        <td>
-          <dl>
-            <dd>
-              <dl>
-                <dd>
-                  <code>
-                    /etc/opt
-                  </code>
-                </dd>
-              </dl>
-            </dd>
-          </dl>
-        </td>
-        <td>
-          Configuration files for add-on packages that are stored in 
-          <code>
-            /opt/
-          </code>
-          .
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <dl>
-            <dd>
-              <dl>
-                <dd>
-                  <code>
-                    /etc/sgml
-                  </code>
-                </dd>
-              </dl>
-            </dd>
-          </dl>
-        </td>
-        <td>
-          Configuration files, such as catalogs, for software that processes SGML.
-        </td>
-      </tr>
+      
       <tr>
         <td>
           <dl>
@@ -191,28 +152,7 @@
           , version 11.
         </td>
       </tr>
-      <tr>
-        <td>
-          <dl>
-            <dd>
-              <dl>
-                <dd>
-                  <code>
-                    /etc/xml
-                  </code>
-                </dd>
-              </dl>
-            </dd>
-          </dl>
-        </td>
-        <td>
-          Configuration files, such as catalogs, for software that processes 
-          <a href="/wiki/XML" title="XML">
-            XML
-          </a>
-          .
-        </td>
-      </tr>
+ 
       <tr>
         <td>
           <dl>
@@ -260,20 +200,7 @@
           .
         </td>
       </tr>
-      <tr>
-        <td>
-          <dl>
-            <dd>
-              <code>
-                /lib&lt;qual&gt;
-              </code>
-            </dd>
-          </dl>
-        </td>
-        <td>
-          Alternate format essential libraries. Such directories are optional, but if they exist, they have some requirements.
-        </td>
-      </tr>
+      
       <tr>
         <td>
           <dl>
@@ -440,20 +367,7 @@
           , fsck, init, route.
         </td>
       </tr>
-      <tr>
-        <td>
-          <dl>
-            <dd>
-              <code>
-                /srv
-              </code>
-            </dd>
-          </dl>
-        </td>
-        <td>
-          Site-specific data which are served by the system.
-        </td>
-      </tr>
+
       <tr>
         <td>
           <dl>
@@ -508,15 +422,7 @@
           </dl>
         </td>
         <td>
-          Non-essential command 
-          <a href="/wiki/Executable" title="Executable">
-            binaries
-          </a>
-          (not needed in 
-          <a href="/wiki/Single_user_mode" title="Single user mode">
-            single user mode
-          </a>
-          ); for all users.
+          Non-essential command binaries (not needed in single user mode); for all users.
         </td>
       </tr>
       <tr>
@@ -563,24 +469,7 @@
           .
         </td>
       </tr>
-      <tr>
-        <td>
-          <dl>
-            <dd>
-              <dl>
-                <dd>
-                  <code>
-                    /usr/lib&lt;qual&gt;
-                  </code>
-                </dd>
-              </dl>
-            </dd>
-          </dl>
-        </td>
-        <td>
-          Alternate format libraries (optional).
-        </td>
-      </tr>
+
       <tr>
         <td>
           <dl>
@@ -677,24 +566,7 @@
           , the kernel source code with its header files.
         </td>
       </tr>
-      <tr>
-        <td>
-          <dl>
-            <dd>
-              <dl>
-                <dd>
-                  <code>
-                    /usr/X11R6
-                  </code>
-                </dd>
-              </dl>
-            </dd>
-          </dl>
-        </td>
-        <td>
-			X Window System, Version 11, Release 6 (up to FHS-2.3, optional).
-        </td>
-      </tr>
+
       <tr>
         <td>
           <dl>
@@ -796,11 +668,7 @@
           </dl>
         </td>
         <td>
-          Users' 
-          <a href="/wiki/E-mail" title="E-mail" class="mw-redirect">
-            mailboxes
-          </a>
-          .
+          Users'mailboxes.
         </td>
       </tr>
       <tr>
@@ -825,48 +693,7 @@
           .
         </td>
       </tr>
-      <tr>
-        <td>
-          <dl>
-            <dd>
-              <dl>
-                <dd>
-                  <code>
-                    /var/run
-                  </code>
-                </dd>
-              </dl>
-            </dd>
-          </dl>
-        </td>
-        <td>
-          Run-time variable data. This directory contains system information data describing the system since it was booted.
-          <br />
-          <p>
-            In FHS 3.0, 
-            <code>
-              /var/run
-            </code>
-            is replaced by 
-            <code>
-              /run
-            </code>
-            ; a system should either continue to provide a 
-            <code>
-              /var/run
-            </code>
-            directory, or provide a symbolic link from 
-            <code>
-              /var/run
-            </code>
-            to 
-            <code>
-              /run
-            </code>
-            , for backwards compatibility.
-          </p>
-        </td>
-      </tr>
+
       <tr>
         <td>
           <dl>
@@ -892,31 +719,7 @@
           , print queues and outgoing mail queue.
         </td>
       </tr>
-      <tr>
-        <td>
-          <dl>
-            <dd>
-              <dl>
-                <dd>
-                  <dl>
-                    <dd>
-                      <code>
-                        /var/spool/mail
-                      </code>
-                    </dd>
-                  </dl>
-                </dd>
-              </dl>
-            </dd>
-          </dl>
-        </td>
-        <td>
-          <a href="/wiki/Deprecated" title="Deprecated" class="mw-redirect">
-            Deprecated
-          </a>
-          location for users' mailboxes.
-        </td>
-      </tr>
+ 
       <tr>
         <td>
           <dl>
