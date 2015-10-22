@@ -325,8 +325,24 @@ http://creativecommons.org/licenses/by-sa/3.0 license.
 
 ---------------------------------------------------------------------
 
+#/shell_concept_example
+line
+"The shell accepts human readable commands and translates them into something the kernel can read and process."
+copied from: http://bash.cyberciti.biz/guide/What_is_Linux_Shell
+under the http://creativecommons.org/licenses/by-nc-sa/3.0/ license.
+
+---------------------------------------------------------------------
+
+#/Linux_kernel_input_output
+image downloaded from: https://upload.wikimedia.org/wikipedia/commons/9/91/Linux_kernel_and_gaming_input-output_latency.svg
+under https://creativecommons.org/licenses/by-sa/3.0/deed.en license.
+
+----------------
+
 Font license:
 i use Amaranth font.
+
+downloaded from: http://www.fontsquirrel.com/fonts/amaranth
 
 license file included to font folder.
 or
