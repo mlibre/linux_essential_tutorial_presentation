@@ -1,11 +1,11 @@
 # linux essential presentation
-linux essential tutorial with created with impress.js.
+linux essential presentation with created with impress.js.
 its useful for linux teacher.
 
 download zip project and open index.html with good browser.
 
 see project:
-http://m-gh.github.io/linux_essential_tutorial/#/overview
+http://m-gh.github.io/linux_essential_presentation/#/overview
 
 key:
 
