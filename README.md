@@ -1,4 +1,4 @@
-# linux essential tutorial
+# linux essential presentation
 linux essential tutorial with created with impress.js.
 its useful for linux teacher.
 
