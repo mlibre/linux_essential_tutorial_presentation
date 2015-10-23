@@ -9,6 +9,6 @@ http://m-gh.github.io/linux_essential_presentation/#/overview
 
 key:
 
-right arrow and down arrow => next.
-left arrow and up arrow => previous.
-space => go to overview.
+right arrow and down arrow => next.  
+left arrow and up arrow => previous.  
+space => go to overview.  
