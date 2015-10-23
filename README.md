@@ -1,6 +1,7 @@
-# linux essential presentation
-linux essential presentation with created with impress.js.
-its useful for linux teacher.
+# linux essential presentation for teching
+linux essential presentation for tech linux.  
+useful for linux teacher.
+created with impress.js.
 
 download zip project and open index.html with good browser.
 
