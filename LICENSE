@@ -33,14 +33,8 @@ For more information, please refer to <http://unlicense.org>
 
 ---------------------------------------------------------------------
 
-when you see/open/go a every part of project you that address in url page.
-it's showen by a "#" after real URL.
-i describe license by these address.
+this software/work created with impress.js under the mit and gpl license.
 
----------------------------------------------------------------------
-
-created with impress.js under the mit and gpl license.
-see this lines.
 /**
  * impress.js
  *
@@ -58,88 +52,67 @@ see this lines.
  *  url:     http://bartaz.github.com/impress.js/
  *  source:  http://github.com/bartaz/impress.js/
  */
-
 ---------------------------------------------------------------------
 
-#/free_software_movement
-
-from: https://www.gnu.org/home.en.html page.
-licensed under http://creativecommons.org/licenses/by-nd/4.0/
-
----------------------------------------------------------------------
-
-#/free_software
-
-copied from https://www.gnu.org/ page.
-licensed under http://creativecommons.org/licenses/by-nd/4.0/.
-
----------------------------------------------------------------------
-
-#/free_license
-
-from: http://www.gnu.org/licenses/licenses.en.html
-licensed under http://creativecommons.org/licenses/by-nd/4.0/
-
-and:
-
-"The source code of the work must be made available under the same license"
-line, copied form http://choosealicense.com/licenses/ page.
-under the http://creativecommons.org/licenses/by/3.0/ license.
+when you see/open/go a every part of project you that address in url page.
+it's showen by a "#" after real URL.
+i describe license by these address.
 
 ---------------------------------------------------------------------
 
 #/linux_distribution
 
-form: https://en.wikipedia.org/wiki/Linux_distribution
-under the https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License 
-or
-http://creativecommons.org/licenses/by-sa/3.0
+orginal title: Linux distribution
+Author: From Wikipedia, the free encyclopedia
+Source: https://en.wikipedia.org/wiki/Linux_distribution
+License: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License 
+License: http://creativecommons.org/licenses/by-sa/3.0
 
 ---------------------------------------------------------------------
 
 debian logo
 
-from: 
-https://commons.wikimedia.org/wiki/File:Openlogo-debianV2.svg#/media/File:Openlogo-debianV2.svg">Openlogo-debianV2 
-by Debian Project 
-http://www.debian.org/logos/ Licensed under http://creativecommons.org/licenses/by-sa/3.0
-via commons.wikimedia.org/wiki/
-
-and png file downloaded from https://commons.wikimedia.org/wiki/File:Openlogo-debianV2.svg with same licesne.
+"Openlogo-debianV2" by Debian Project - www.debian.org/logos/. Licensed under CC BY-SA 3.0 via Wikimedia Commons - 
+https://commons.wikimedia.org/wiki/File:Openlogo-debianV2.svg#/media/File:Openlogo-debianV2.svg
 
 ---------------------------------------------------------------------
 
 GNU linux logo
 
-from: http://www.geekstogo.com/2707/linux-for-newbies-part-1/
-under the http://creativecommons.org/licenses/by-nc/3.0/ license
+orginal title: GNU/Linux For Newbies
+Author: Posted by Babbzzz
+Source: http://www.geekstogo.com/2707/linux-for-newbies-part-1/
+License: http://creativecommons.org/licenses/by-nc/3.0/
 
 ---------------------------------------------------------------------
 
 #/brief_history_of_linux
 
-text
 "In 1991, Linus Torvalds developed a Unix-compatible kernel and called it Linux."
-and
+,
 "It was proprietary at first,"
-and
+,
 "but in 1992, he made it free software;"
-and
+,
 "combining Linux with the not-quite-complete GNU system resulted in a complete free 
 operating system"
 
-from: http://www.gnu.org/gnu/thegnuproject.en.html
-licensed under http://creativecommons.org/licenses/by-nd/4.0/
+Author: Bt Richard Stallman
+orginal title: The GNU Project
+Source: http://www.gnu.org/gnu/thegnuproject.en.html
+license: http://creativecommons.org/licenses/by-nd/4.0/
 
 AND
+
 "received support and assistance from volunteers who succeeded in creating a complete and functional kernel"
-and
+,
 "Linux is Unix-like, but was developed without any Unix code"
 
-from: https://en.wikipedia.org/wiki/Operating_system
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-or
-http://creativecommons.org/licenses/by-sa/3.0 license.
+title: Operating system
+Author: From Wikipedia, the free encyclopedia
+Source: https://en.wikipedia.org/wiki/Operating_system
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+license: http://creativecommons.org/licenses/by-sa/3.0 license.
 
 ---------------------------------------------------------------------
 
@@ -147,33 +120,37 @@ http://creativecommons.org/licenses/by-sa/3.0 license.
 
 "When I started working at the MIT Artificial Intelligence Lab in 1971, 
 I became part of a software-sharing community that had existed for many years."
-and
+,
 "As a member of this community, an AI Lab staff system hacker, my job was to improve this system."
-and
+,
 "We did not call our software “free software”, because that term did not yet exist; but that is what it was."
-and
+,
 "The collapse of the community"
-and
+,
 "ITS were obsolete"
-and
+,
 "The modern computers of the era, such as the VAX or the 68020, 
 had their own operating systems, but none of them were free software "
-and
+,
 "sign a nondisclosure agreement even to get an executable copy."
-and
+,
 "This meant that the first step in using a computer was to promise not to help your neighbor"
 
-from: http://www.gnu.org/gnu/thegnuproject.en.html
-licensed under http://creativecommons.org/licenses/by-nd/4.0/
+Author: Bt Richard Stallman
+orginal title: The GNU Project
+Source: http://www.gnu.org/gnu/thegnuproject.en.html
+license: http://creativecommons.org/licenses/by-nd/4.0/
 
 AND
 
 "ITS - assembly"
-Understood from: https://en.wikipedia.org/wiki/Incompatible_Timesharing_System
-under the 
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-or
-http://creativecommons.org/licenses/by-sa/3.0 license.
+
+this work is a derivate/modified.
+author: From Wikipedia, the free encyclopedia
+title: Incompatible Timesharing System
+source: https://en.wikipedia.org/wiki/Incompatible_Timesharing_System
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+license: http://creativecommons.org/licenses/by-sa/3.0 license.
 
 ---------------------------------------------------------------------
 
@@ -191,8 +168,10 @@ and
 and
 "GNU's Not Unix"
 
-from: http://www.gnu.org/gnu/thegnuproject.en.html
-licensed under http://creativecommons.org/licenses/by-nd/4.0/
+Author: Bt Richard Stallman
+orginal title: The GNU Project
+Source: http://www.gnu.org/gnu/thegnuproject.en.html
+license: http://creativecommons.org/licenses/by-nd/4.0/
 
 ---------------------------------------------------------------------
 
@@ -200,34 +179,30 @@ licensed under http://creativecommons.org/licenses/by-nd/4.0/
 
 "I therefore decided that my first program for the GNU Project would be a multilanguage, multiplatform 
 compiler."
-
-and
-
+,
 "I therefore decided that my first program for the GNU Project would be a multilanguage, multiplatform 
 compiler."
-
-and
-
+,
 "I concluded I would have to write a new compiler from scratch."
-
-and
-
+,
 "That new compiler is now known as GCC; none of the Pastel compiler is used in it, 
 but I managed to adapt and use the C front end that I had written. But that was some 
 years later; first, I worked on GNU Emacs."
 
-from: http://www.gnu.org/gnu/thegnuproject.en.html
-licensed under http://creativecommons.org/licenses/by-nd/4.0/
+Author: Bt Richard Stallman
+orginal title: The GNU Project
+Source: http://www.gnu.org/gnu/thegnuproject.en.html
+license: http://creativecommons.org/licenses/by-nd/4.0/
 
 AND
 
 "GNU Compiler Collection"
 
-from: https://en.wikipedia.org/wiki/GNU_Compiler_Collection
-under the
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-or
-http://creativecommons.org/licenses/by-sa/3.0 license.
+author: From Wikipedia, the free encyclopedia
+title: GNU Compiler Collection
+source: https://en.wikipedia.org/wiki/GNU_Compiler_Collection
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+license: http://creativecommons.org/licenses/by-sa/3.0.
 
 ---------------------------------------------------------------------
 
@@ -235,81 +210,74 @@ http://creativecommons.org/licenses/by-sa/3.0 license.
 
 In 1980, the copyright law was extended to computer programs in the United States
 
-from: https://en.wikipedia.org/wiki/Free_and_open-source_software
-under the
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-or
-http://creativecommons.org/licenses/by-sa/3.0 license.
+author: From Wikipedia, the free encyclopedia
+title: Free and open-source software
+source: https://en.wikipedia.org/wiki/Free_and_open-source_software
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+license: http://creativecommons.org/licenses/by-sa/3.0 license.
 
 AND
 
 "Copyleft uses copyright law, but flips it over to serve the opposite of its usual purpose: instead of a means 
 for restricting a program, it becomes a means for keeping the program free."
-
-and
-
+,
 "The principal goal of GNU is to be free software."
-
-and
-
+,
 "The specific implementation of copyleft that we use for most GNU software is the GNU General Public License, 
 or GNU GPL for short."
-
-and
-
+,
 "So we needed to use distribution terms that would prevent 
 GNU software from being turned into proprietary software. The method we use is called “copyleft”."
 
-from: http://www.gnu.org/gnu/thegnuproject.en.html
-licensed under http://creativecommons.org/licenses/by-nd/4.0/
+Author: Bt Richard Stallman
+orginal title: The GNU Project
+Source: http://www.gnu.org/gnu/thegnuproject.en.html
+license: http://creativecommons.org/licenses/by-nd/4.0/
 
 ---------------------------------------------------------------------
 
 #/linux_unix
 
 "received support and assistance from volunteers who succeeded in creating a complete and functional kernel"
-
-and
+,
 "Linux is Unix-like, but was developed without any Unix code,"
 
-from: https://en.wikipedia.org/wiki/Operating_system
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-or
-http://creativecommons.org/licenses/by-sa/3.0 license.
+author: From Wikipedia, the free encyclopedia
+title: Operating system
+source: https://en.wikipedia.org/wiki/Operating_system
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+license: http://creativecommons.org/licenses/by-sa/3.0 license.
 
 ---------------------------------------------------------------------
 
 #/linux_unix
 
 "Assembly - c"
-
-and
-
 "OS X - Unix-based"
 
-Understood from: https://en.wikipedia.org/wiki/Operating_system
-under the
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-or
-http://creativecommons.org/licenses/by-sa/3.0 license.
+this work is a derivate/modified.
+title: Operating system
+author: From Wikipedia, the free encyclopedia
+source: https://en.wikipedia.org/wiki/Operating_system
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+license: http://creativecommons.org/licenses/by-sa/3.0 license.
 
 ---------------------------------------------------------------------
 
 #/fhs_start
 
-from: https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
-under the
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-Sh$
-or
-http://creativecommons.org/licenses/by-sa/3.0 license.
+author: From Wikipedia, the free encyclopedia
+title: Filesystem Hierarchy Standard
+source: https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-Sh$
+license: http://creativecommons.org/licenses/by-sa/3.0.
 
 ---------------------------------------------------------------------
 
 #/linux_structure_image
 
-from: https://en.wikipedia.org/wiki/Linux#/media/File:Free_and_open-source-software_display_servers_and_UI_toolkits.svg
-under the
-http://creativecommons.org/licenses/by-sa/3.0 license.
+Free and open-source-software display servers and UI toolkits" by Shmuel Csaba Otto Traian.
+Licensed under CC BY-SA 3.0 via Commons - https://commons.wikimedia.org/wiki/File:Free_and_open-source-software_display_servers_and_UI_toolkits.svg#/media/File:Free_and_open-source-software_display_servers_and_UI_toolkits.svg
 
 ---------------------------------------------------------------------
 
@@ -317,34 +285,37 @@ http://creativecommons.org/licenses/by-sa/3.0 license.
 #/fhs_table_2
 #/fhs_table_3
 
-from: https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
-under the
-https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-or
-http://creativecommons.org/licenses/by-sa/3.0 license.
+author: From Wikipedia, the free encyclopedia
+title: Filesystem Hierarchy Standard
+source: https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+license: http://creativecommons.org/licenses/by-sa/3.0
 
 ---------------------------------------------------------------------
 
 #/shell_concept_example
-line
+
 "The shell accepts human readable commands and translates them into something the kernel can read and process."
-copied from: http://bash.cyberciti.biz/guide/What_is_Linux_Shell
-under the http://creativecommons.org/licenses/by-nc-sa/3.0/ license.
+author: http://bash.cyberciti.biz/guide/What_is_Linux_Shell
+title: What is Linux Shell
+source: http://bash.cyberciti.biz/guide/What_is_Linux_Shell
+license: under the http://creativecommons.org/licenses/by-nc-sa/3.0/ license.
 
 ---------------------------------------------------------------------
 
 #/Linux_kernel_input_output
-image downloaded from: https://upload.wikimedia.org/wikipedia/commons/9/91/Linux_kernel_and_gaming_input-output_latency.svg
-under https://creativecommons.org/licenses/by-sa/3.0/deed.en license.
+"Linux kernel and gaming input-output latency" 
+by Shmuel Csaba Otto Traian. 
+Licensed under CC BY-SA 3.0 via Commons - 
+https://commons.wikimedia.org/wiki/File:Linux_kernel_and_gaming_input-output_latency.svg#/media/File:Linux_kernel_and_gaming_input-output_latency.svg
 
 ----------------
 
 Font license:
-i use Amaranth font.
 
-downloaded from: http://www.fontsquirrel.com/fonts/amaranth
-
-license file included to font folder.
+font name: Amaranth font.
+source: http://www.fontsquirrel.com/fonts/amaranth
+license file included in font folder.
 or
 http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 or
