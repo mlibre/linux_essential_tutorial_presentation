@@ -1,5 +1,5 @@
-# linux essential presentation for teaching
-linux essential presentation for teach linux.  
+# linux essential learning presentation for teaching
+linux essential learning presentation to teach linux.  
 useful for linux teacher.
 created with impress.js.
 
