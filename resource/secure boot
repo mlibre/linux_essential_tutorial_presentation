@@ -1,0 +1,35 @@
+Secure boot
+
+- secure boot code
+- validate program with it's own key
+- prevent malware from launching at boot time
+
+Secure boot or restricted boot ?
+
+- enable/disable secure boot.
+- run prgoram's doesn't have certificate key.
+- can't install os doesn't have certificate key.
+
+solution to install linux
+
+- choose a linux distribution that support secure boot
+- add a key to the UEFI firmware
+- disable secure boot
+
+boot from flash
+
+- disable fast boot
+- disable windows fast startup feature
+- disable CSM
+
+dual boot
+
+- it seem's user can install linux and windows 10 inside together
+
+OS with certificate key:
+
+- ubuntu - offical online version have ubuntu'own key
+- mint - perhaps - beacuse it's based on ubuntu
+- opensuse
+- windows ( probably 8 and 10 )
+- ....

@@ -1,0 +1,7 @@
+
+command line
+gui
+image next to FHS
+know more: fsf osi - richard stallman and torvalds picture
+
+design: loading

@@ -1,0 +1,8 @@
+MBR
+
+- master boot record
+
+MBR limits:
+
+- number of partition
+- size of partition
