@@ -1,6 +1,5 @@
 <!doctype html>
 
-
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -20,7 +19,7 @@
 <body class="impress-not-supported">
 
 <div class="fallback-message">
-    <p>Your browser <b>doesn't support the features required</b> so you are presented with a simplified version of this presentation.</p>
+    <p>Your browser <b>doesn't support the features required or it's in loading</b> so you are presented with a simplified version of this presentation.</p>
     <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
 </div>
 
@@ -35,44 +34,73 @@
 		<img src="images/king-penguin.jpg" alt="i love GNU" width="100%" height="100%" style="border-radius:1%">
 	</div>
 	
-	<!-- --------------------------- uefi ---------------------------  -->
-	<div id="uefi" class="step slide" data-x="-500" data-y="-1500">
-        <strong> UEFI </strong>
+	<!-- --------------------------- BIOS ---------------------------  -->
+	<div id="bios" class="step slide" data-x="-500" data-y="-1500">
+        <strong> BIOS </strong>
         <br>
+        <br>
+        <ul class="ul_disc" style="margin-left: 10%;">
+			<li> Basic Input Output System - 1975 </li>
+			<li> Software stored on a small chip on the motherboard - ROM - flash memory </li>
+			<li> Rewritable </li>
+			<li> First software run when computer power on </li>
+        </ul>
+        <br>
+        
+        <strong> BIOS work's steps </strong>
+        <br>
+        <br>
+		<ul class="ul_disc" style="margin-left: 10%;">
+			<li> Initialize and test the system hardware </li>
+			<li> Load a bootloader or an operating system </li>
+			<li> Runtime service for operating system - keyboard, display, input/output device , etc. 
+			but it don't use with linux, windows and ... </li>
+			<li> Config hardware - change boot order - view fan speed </li>
+        </ul>
+    </div>
+	
+	<!-- --------------------------- BIOS image ---------------------------  -->
+	<div id="bios_image" class="step" data-x="-500" data-y="-1500" data-z="-2000">
+		<img src="images/Award_BIOS_setup_utility.png" style="width:100%;height:100%">
+	</div>
+		
+	<!-- --------------------------- UEFI ---------------------------  -->
+	<div id="uefi" class="step slide" data-x="500" data-y="-1500">
+        <strong> UEFI </strong>
         <br>
         <ul class="ul_disc" style="margin-left: 10%;">
 			<li> Unified Extensible Firmware Interface </li>
 			<li> Software interface between an operating system and firmware </li>
 			<li> Initializing/Booting computer before passing to operting system </li>
-			<li> Replace with traditional BIOS </li>
-        </ul>
+			<li> Replace with traditional BIOS - 2014 </li>
+		</ul>
         <br>
         
         <strong> Advantages </strong>
         <br>
-        <br>
 		<ul class="ul_disc" style="margin-left: 10%;">
 			<li> Faster boot </li>
-			<li> Effcient hardware access by operating system </li>
+			<li> Runtime service - os loader and os </li>
 			<li> Firmware validation method - which boot code is secure </li>
 			<li> Better interface </li>
-			<li> Mouse </li>
-			<li> Boot from large disk - GPT </li>
+			<li> Mouse, Network, ... </li>
+			<li> Boot from GPT </li>
+			<li> CMS - compability Support Module - MBR </li>
         </ul>
     </div>
 	
-	<!-- --------------------------- efi_simple image ---------------------------  -->
-	<div id="efi_simple" class="step" data-x="-500" data-y="-1500" data-z="-2000">
+	<!-- --------------------------- uefi_simple image ---------------------------  -->
+	<div id="uefi_simple" class="step" data-x="500" data-y="-1500" data-z="-2000">
 		<img src="images/Efi-simple.svg" style="margin-left:30%;">
 	</div>
 	
 	<!-- --------------------------- uefi interface ---------------------------  -->
-	<div id="uefi_interface" class="step" data-x="-500" data-y="-1500" data-z="-2000" data-rotate-x="90">
-		<img src="images/uefi_inteface.jpg" style="width:100%; height:100%">
+	<div id="uefi_interface" class="step" data-x="500" data-y="-1500" data-z="-2000" data-rotate-x="90">
+		<img src="images/uefi_interface.jpg" style="width:100%; height:100%">
 	</div>
 	
 	<!-- --------------------------- Secure boot ---------------------------  -->
-    <div id="secure_boot" class="step slide" data-x="500" data-y="-1500">
+    <div id="secure_boot" class="step slide" data-x="1500" data-y="-1500">
         <strong> Secure boot </strong>
         <br>
         <br>
@@ -96,7 +124,7 @@
     </div>
 	
 	<!-- ---------------------------  fsf statement  --------------------------- -->
-	<div id="fsf_statement" class="step text_good" data-x="500" data-y="-1500" data-z="-2000">
+	<div id="fsf_statement" class="step text_good" data-x="1500" data-y="-1500" data-z="-2000">
 		<strong> fsf statement </strong>
 		<ul class="ul_disc" style="font-size:30px;">
 			We, the undersigned, urge all computer makers implementing UEFI's so-called "Secure Boot" to do it in a way that allows 
@@ -109,7 +137,7 @@
 	</div>
 
 	<!-- --------------------------- secure boot/uefi and install linux  ---------------------------  -->
-	<div id="install_linux_secure_boot" class="step slide" data-x="1500" data-y="-1500">
+	<div id="install_linux_secure_boot" class="step slide" data-x="2500" data-y="-1500">
         <strong> Solutions to install linux </strong>
         <br>
         <br>
@@ -128,18 +156,11 @@
 			<li> Disable windows fast startup feature </li>
 			<li> Disable CSM </li>
         </ul>
-        <br>
-        
-        <strong> Dual boot </strong>
-        <br>
-        <br>
-        <ul class="ul_disc" style="margin-left: 10%;">
-			<li> it seem's user can install linux and windows 10 inside together </li>
-        </ul>	
+        <br>	
     </div>
 	
 	<!-- --------------------------- OS with certificate key --------------------------- --> 
-    <div id="OS_with_certificate_key" class="step slide" data-x="1500" data-y="-1500" data-z="-2000">
+    <div id="OS_with_certificate_key" class="step slide" data-x="2500" data-y="-1500" data-z="-2000">
         <strong> Operating system with certificate key </strong>
         <br>
         <br>
@@ -148,8 +169,93 @@
 			<li> mint - perhaps - beacuse it's based on ubuntu </li>
 			<li> windows ( probably 8 and 10 ) </li>
         </ul>
+		
 		<br>
+		<strong> Dual boot </strong>
+        <br>
+        <br>
+        <ul class="ul_disc" style="margin-left: 10%;">
+			<li> it seem's user can install linux and windows 10 inside together </li>
+        </ul>
     </div>
+
+	<!-- ---------------------------  GPT MBR partition tables  --------------------------- -->
+    <div id="gpt_mbr" class="step text_good" data-x="-200" data-y="400" data-scale="4">
+        <span class="mbr"> master boot record </span>
+        <h1> GPT </h1>
+        <span class="footnote"><sup>*</sup> partition tables </span>
+    </div>
+	
+	<!-- --------------------------- master boot record --------------------------- -->
+	<div id="master_boot_record" class="step text_good width_1400" data-x="-800" data-y="-300" data-z="-2000" >
+		<strong> MBR </strong>
+		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> Master Boot Record </li>
+			<li> Boot sector at fist sector of mass storage - preceding the first partition </li>
+			<li> Contain executable code to run operating system or passing to loader's second stage like grub </li>
+		</ul>
+		
+		<br>
+		<strong> MBR Content </strong>
+		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> Partition table </li>
+			<li> Bootstarp code - bootable partition , ...</li>
+		</ul>
+		
+		<br>
+		<strong> MBR characteristic </strong>
+		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> Number of partition - 4 primary </li>
+			<li> Size of partition ( 2 TB - max ) </li>
+		</ul>
+	</div>
+
+	<!-- --------------------------- master boot record detail --------------------------- -->
+	<div id="mbr_table" class="step width_1400 text_good" data-x="0" data-y="-100" data-z="-1000" data-scale="1">
+		<table class="table" summary="Structure of a classical generic MBR"><caption> Structure of a classical generic MBR </caption><thead class="thead"><tr><th colspan="2"> Address </th><th rowspan="2" style="vertical-align:middle" colspan="2"> Description </th><th rowspan="2" style="vertical-align:middle"> Size<br>(bytes) </th></tr><tr><th style="width:100px;border-radius: 0px;">Hex</th><th style="width:100px;border-radius: 0px;">Dec</th></tr></thead><tr><td style="text-align:center"><tt>+000h</tt></td><td style="text-align:center">+0</td><td colspan="2" class="text_center"> Bootstrap code area </td><td style="text-align:center">446</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1BEh"></span><span id="P1"></span><tt>+1BEh</tt></td><td style="text-align:center">+446</td><td style="text-align:center"><a href="#PTE">Partition entry</a> #1</td><td rowspan="4" style="vertical-align:middle; text-align:center"><i>Partition table</i><br>(for primary partitions)</td><td style="text-align:center">16</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1CEh"></span><span id="P2"></span><tt>+1CEh</tt></td><td style="text-align:center">+462</td><td style="text-align:center"><a href="#PTE">Partition entry</a> #2</td><td style="text-align:center">16</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1DEh"></span><span id="P3"></span><tt>+1DEh</tt></td><td style="text-align:center">+478</td><td style="text-align:center"><a href="#PTE">Partition entry</a> #3</td><td style="text-align:center">16</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1EEh"></span><span id="P4"></span><tt>+1EEh</tt></td><td style="text-align:center">+494</td><td style="text-align:center"><a href="#PTE">Partition entry</a> #4</td><td style="text-align:center">16</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1FEh"></span><tt>+1FEh</tt></td><td style="text-align:center">+510</td><td style="text-align:center"><tt>55h</tt></td><td rowspan="2" style="vertical-align:middle; text-align:center"><i>Boot signature</i><sup id="cite_ref-NB_Magic_AA55_14-0" class="reference"><a href="#cite_note-NB_Magic_AA55-14"><span>[</span>a<span>]</span></a></sup></td><td rowspan="2" style="text-align:center">2</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1FFh"></span><tt>+1FFh</tt></td><td style="text-align:center">+511</td><td style="text-align:center"><tt>AAh</tt></td></tr><tr><td colspan="4"></td><td style="text-align:center">512</td></tr></table>
+		<strong> jadval + aks - kenare ham </strong>
+	</div>
+
+	<!-- --------------------------- GPT--------------------------- -->
+	<div id="free_software_movement" class="step text_good" data-x="-1750" data-y="250" data-z="-900" >
+		<strong> GPT <strong>
+		<p> The free software movement campaigns to win for the users of computing the freedom that comes from free software. 
+		Free software puts its users in control of their own computing.<p>
+	</div>
+
+	<!-- --------------------------- free software --------------------------- -->
+	<div id="free_software" class="step text_good" data-x="-1700" data-z="-1300" data-rotate-x="90">
+		<strong> What is the Free Software </strong>
+		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> The freedom to run the program as you wish, for any purpose (freedom 0) </li>
+			<li> The freedom to study how the program works, and adapt it to your needs (freedom 1). 
+			Access to the source code - change it </li>
+			<li> The freedom to redistribute copies so you can help your neighbor (freedom 2).
+			redistribute exact copy - you can sell it. </li>
+			<li> The freedom to improve the program, and release your improvements to the public, 
+			so that the whole community benefits (freedom 3). Access to the source code is a precondition for this. </li>
+		</ul>
+	</div>
+	
+	<!-- --------------------------- free license --------------------------- -->
+	<div id="free_license" class="step text_good" data-x="-1700" data-y="800" data-z="-1800" data-rotate-x="90">
+		<strong> Free license </strong>
+		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> free software - released under a free license. </li>
+		</ul>
+		<strong> GNU GPL </strong>
+		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> Four freedom </li>
+			<li> Specific implementation of copyleft </li>
+			<li> the source code of the work must be made available under the same license </li>
+			<li> Gnu normally use the GNU General Public License (GNU GPL) </li>
+		</ul>
+	</div>
+
+	<!-- --------------------------- kernel license --------------------------- -->
+	<div id="kernel_license" class="step text_good" data-x="-460" data-y="1000" data-z="-700">
+		<p> The Linux kernel is released under the GPLv2 </p>
+	</div>
 
 	<!-- --------------------------- gnu linux --------------------------- --> 
     <div id="gnu_linux" class="step text_good" data-x="2800" data-y="350" data-scale="6">
@@ -243,59 +349,6 @@
         <img src="images/copyleft.png" width="25%" height="25%">
     </div>
 
-	<!-- ---------------------------  GNU  --------------------------- -->
-    <div id="gnu" class="step text_good" data-x="-200" data-y="400" data-scale="4">
-        <span class="gpl"> General Public License </span>
-        <h1> GNU </h1>
-        <span class="footnote"><sup>*</sup> The Linux kernel </span>
-    </div>
-	
-	<!-- --------------------------- gnu detail --------------------------- -->
-	<div id="gnu_detail" class="step text_good" data-x="-798" data-y="300" data-z="-950" >
-		<p> GNU's not Unix </p>
-	</div>
-
-	<!-- --------------------------- free software movement --------------------------- -->
-	<div id="free_software_movement" class="step text_good" data-x="-1750" data-y="250" data-z="-900" >
-		<strong> What is the Free Software Movement ? </strong>
-		<p> The free software movement campaigns to win for the users of computing the freedom that comes from free software. 
-		Free software puts its users in control of their own computing.<p>
-	</div>
-
-	<!-- --------------------------- free software --------------------------- -->
-	<div id="free_software" class="step text_good" data-x="-1700" data-z="-1300" data-rotate-x="90">
-		<strong> What is the Free Software </strong>
-		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
-			<li> The freedom to run the program as you wish, for any purpose (freedom 0) </li>
-			<li> The freedom to study how the program works, and adapt it to your needs (freedom 1). 
-			Access to the source code - change it </li>
-			<li> The freedom to redistribute copies so you can help your neighbor (freedom 2).
-			redistribute exact copy - you can sell it. </li>
-			<li> The freedom to improve the program, and release your improvements to the public, 
-			so that the whole community benefits (freedom 3). Access to the source code is a precondition for this. </li>
-		</ul>
-	</div>
-	
-	<!-- --------------------------- free license --------------------------- -->
-	<div id="free_license" class="step text_good" data-x="-1700" data-y="800" data-z="-1800" data-rotate-x="90">
-		<strong> Free license </strong>
-		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
-			<li> free software - released under a free license. </li>
-		</ul>
-		<strong> GNU GPL </strong>
-		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
-			<li> Four freedom </li>
-			<li> Specific implementation of copyleft </li>
-			<li> the source code of the work must be made available under the same license </li>
-			<li> Gnu normally use the GNU General Public License (GNU GPL) </li>
-		</ul>
-	</div>
-
-	<!-- --------------------------- kernel license --------------------------- -->
-	<div id="kernel_license" class="step text_good" data-x="-460" data-y="1000" data-z="-700">
-		<p> The Linux kernel is released under the GPLv2 </p>
-	</div>
-		
     <!-- --------------------------- Linux histroy --------------------------- --> 
 	<div id="brief_history_of_linux" class="step slide" data-x="3500" data-y="-1500">
         <strong> Brief history of linux </strong>
@@ -457,7 +510,7 @@
 </div>
 
 <div class="hint">
-    <p>Linux essential tutorial</p>
+    <p> Linux essential tutorial part 2 </p>
 </div>
 
 <script src="js/impress.js"></script>

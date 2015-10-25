@@ -208,17 +208,6 @@ a:focus
     white-space: nowrap;
 }
 
-/*
-    And now we start to style each step separately.
-
-    I agree that this may be not the most efficient, object-oriented and
-    scalable way of styling, but most of steps have quite a custom look
-    and typography tricks here and there, so they had to be styled separately.
-
-    First is the title step with a gnu_linux <h1> (no room for padding) and some
-    3D positioning along Z axis.
-*/
-
 #gnu
 {
     padding: 0;
@@ -253,12 +242,6 @@ a:focus
     font-size: 60px;
 }
 
-/*
-    Second step is nothing special, just a text with a link, so it doesn't need
-    any special styling.
-
-    Let's move to 'gnu_linux thoughts' with centered text and custom font sizes.
-*/
 #gnu_linux
 {
     width: 600px;
@@ -274,18 +257,44 @@ a:focus
     line-height: 100%;
 }
 
-#gnu_linux .thoughts {
+#gnu_linux .thoughts
+{
     font-size: 90px;
     line-height: 150px;
 }
 
-/*
-    'Tiny ideas' just need some tiny styling.
-*/
-#tiny
+#gpt_mbr
 {
-    width: 500px;
-    text-align: center;
+    padding: 0;
+}
+
+#gpt_mbr .mbr
+{
+    font-size: 64px;
+    position: absolute;
+    top: -0.5em;
+
+    -webkit-transform: translateZ(20px);
+    -moz-transform:    translateZ(20px);
+    -ms-transform:     translateZ(20px);
+    -o-transform:      translateZ(20px);
+    transform:         translateZ(20px);
+}
+
+#gpt_mbr h1
+{
+    font-size: 190px;
+
+    -webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+}
+
+#gpt_mbr .footnote
+{
+    font-size: 60px;
 }
 
 #embedded_system
@@ -344,46 +353,6 @@ a:focus
     opacity: 1;
     cursor: pointer;
 }
-
-
-/*
-    Now, when we have all the steps styled let's give users a hint how to navigate
-    around the presentation.
-
-    The best way to do this would be to use JavaScript, show a delayed hint for a
-    first time users, then hide it and store a status in cookie or localStorage...
-
-    But I wanted to have some CSS fun and avoid additional scripting...
-
-    First of all I wanted the hint to appear only when user is idle for a while.
-    You can't detect the 'idle' state in CSS, but I delayed a appearing of the
-    hint by 5s using transition-delay.
-
-    You also can't detect in CSS if the user is a first-time visitor, so I had to
-    make an assumption that I'll only show the hint on the first step. And when
-    the step is changed hide the hint, because I can assume that user already
-    knows how to navigate.
-
-    To summarize it - hint is shown when the user is on the first step for longer
-    than 5 seconds.
-
-    The other problem I had was caused by the fact that I wanted the hint to fade
-    in and out. It can be easily achieved by transitioning the opacity property.
-    But that also meant that the hint was always on the screen, even if totally
-    transparent. It covered part of the screen and you couldn't correctly clicked
-    through it.
-    Unfortunately you cannot transition between display `block` and `none` in pure
-    CSS, so I needed a way to not only fade out the hint but also move it out of
-    the screen.
-
-    I solved this problem by positioningpositioning the hint below the bottom of the screen
-    with CSS transform and moving it up to show it. But I also didn't want this move
-    to be visible. I wanted the hint only to fade in and out visually, so I delayed
-    the fade in transition, so it starts when the hint is already in its correct
-    position on the screen.
-
-    I know, it sounds complicated ... maybe it would be easier with the code?
-*/
 
 .hint
 {

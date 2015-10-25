@@ -55,6 +55,18 @@ this software/work created with impress.js under the mit and gpl license.
 
 ---------------------------------------------------------------------
 
+Font license:
+
+font name: Amaranth font.
+source: http://www.fontsquirrel.com/fonts/amaranth
+license file included in font folder.
+or
+http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+or
+http://scripts.sil.org/OFL
+
+---------------------------------------------------------------------
+
 when you see/open/go a every part of project you that address in url page.
 it's showen by a "#" after real URL.
 i describe license by these address.
@@ -286,6 +298,7 @@ Licensed under CC BY-SA 3.0 via Commons - https://commons.wikimedia.org/wiki/Fil
 #/fhs_table_2
 #/fhs_table_3
 
+this work is a derivate/modified.
 author: From Wikipedia, the free encyclopedia
 title: Filesystem Hierarchy Standard
 source: https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
@@ -330,12 +343,13 @@ license: http://creativecommons.org/licenses/by-nd/3.0/
 
 ---------------------------------------------------------------------
 
-Font license:
+#/mbr_table
 
-font name: Amaranth font.
-source: http://www.fontsquirrel.com/fonts/amaranth
-license file included in font folder.
-or
-http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
-or
-http://scripts.sil.org/OFL
+this work is a derivate/modified.
+author: From Wikipedia, the free encyclopedia
+title: Master boot record
+Source : https://en.wikipedia.org/wiki/Master_boot_record
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+license: https://creativecommons.org/licenses/by-sa/3.0/
+
+---------------------------------------------------------------------
