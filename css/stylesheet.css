@@ -116,12 +116,6 @@ a:focus
     display: none;
 }
 
-/*
-    Now let's style the presentation steps.
-
-    We start with basics to make sure it displays correctly in everywhere ...
-*/
-
 .step
 {
     position: relative;
@@ -140,11 +134,6 @@ a:focus
     line-height: 1.5;
 }
 
-/*
-    ... and we enhance the styles for impress.js.
-
-    Basically we remove the margin and make inactive steps a little bit transparent.
-*/
 .impress-enabled .step
 {
     margin: 0;
@@ -159,14 +148,6 @@ a:focus
 
 .impress-enabled .step.active { opacity: 1 }
 
-/*
-    These 'slide' step styles were heavily inspired by HTML5 Slides:
-    http://html5slides.googlecode.com/svn/trunk/styles.css
-
-    ;)
-
-    They cover everything what you see on first three steps of the demo.
-*/
 .slide
 {
     display: block;
@@ -179,8 +160,8 @@ a:focus
 	background:    -moz-linear-gradient(90deg, #ECE9E6 10%, #f3f3f3 90%); /* FF3.6+ */
 	background:     -ms-linear-gradient(90deg, #ECE9E6 10%, #f3f3f3 90%); /* IE10 */
 	background:      -o-linear-gradient(90deg, #ECE9E6 10%, #f3f3f3 90%); /* Opera 11.10+ */
-	background:         linear-gradient(90deg, #ECE9E6 10%, #f3f3f3 90%); /* W3C */ 
-   
+	background:         linear-gradient(90deg, #ECE9E6 10%, #f3f3f3 90%); /* W3C */
+
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
@@ -257,10 +238,19 @@ a:focus
     line-height: 100%;
 }
 
-#gnu_linux .thoughts
+#linux_start_up_proceess
 {
-    font-size: 90px;
-    line-height: 150px;
+    width: 600px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 100%;
+}
+
+#linux_start_up_proceess b
+{
+    display: block;
+    font-size: 100px;
+    line-height: 100%;
 }
 
 #gpt_mbr
@@ -307,16 +297,6 @@ a:focus
     font-size: 70px;
 }
 
-/*
-    There is nothing really special about 'use the source, Luke' step, too,
-    except maybe of the Yoda background.
-
-    As you can see below I've 'hard-coded' it in data URL.
-    That's not the best way to serve images, but because that's just this one
-    I decided it will be OK to have it this way.
-
-    Just make sure you don't blindly copy this approach.
-*/
 #source
 {
     width: 700px;
@@ -333,21 +313,11 @@ a:focus
     font-size: 60px;
 }
 
-/*
-    The last step is an overview.
-    There is no content in it, so we make sure it's not visible because we want
-    to be able to click on other steps.
-
-*/
 #overview
 {
 	display: none
 }
 
-/*
-    We also make other steps visible and give them a pointer cursor using the
-    `impress-on-` class.
-*/
 .impress-on-overview .step
 {
     opacity: 1;
@@ -509,6 +479,10 @@ a:focus
 .font_120
 {
 	font-size:120px;
+}
+.font_240
+{
+	font-size:240px;
 }
 .line_height_70
 {

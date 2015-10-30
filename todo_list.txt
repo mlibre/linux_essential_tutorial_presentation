@@ -1,7 +1,14 @@
 
-command line
-gui
-image next to FHS
-know more: fsf osi - richard stallman and torvalds picture
+part 1:
+picture about command line and gui
+image next to the FHS
+know more: fsf - osi - richard stallman and torvalds picture
+درست کن پارت ۱ . مطالب مرنبط باشه. خوب باشه. درست باشه. پیوسته باشه.
 
+part 2:
+#gpt_mbr_image_efi must be complete with EFI کاربرد
+#efi must compelete
+after #gpt_mbr_image_efi add booting: gpt/mbr in uefi computer
+
+all part:
 design: loading
