@@ -10,5 +10,6 @@ part 2:
 #efi must compelete
 after #gpt_mbr_image_efi add booting: gpt/mbr in uefi computer
 
+every thing is file
 all part:
 design: loading
