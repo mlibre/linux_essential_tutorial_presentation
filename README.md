@@ -6,7 +6,7 @@ created with impress.js.
 download zip project and open index.html with good browser.
 
 see project:
-http://m-gh.github.io/linux_essential_presentation/#/overview
+http://m-gh.github.io/linux_essential_presentation/index.html/#/overview
 
 key:
 
