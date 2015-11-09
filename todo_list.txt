@@ -14,6 +14,8 @@ after #gpt_mbr_image_efi add booting: gpt/mbr in uefi computer
 part 3:
 create presentation
 
+part 4:
+create presentation
 
 all part:
 design: loading
@@ -36,10 +38,9 @@ lxde , ...
 
 ---------------------------------------------------------------------------------------------------
 
-
 chizayi ke gofte beshe:
 
-shell - command - kernel - ls - pwd
+ls - pwd
 apt-get - apt-get source - apt-get install - apt-get upgrade - apt-get dist-upgrade - apt-get purge ...
 apt-cache search
 
@@ -54,7 +55,6 @@ every thing is file
 
 ---------------------------------------------------------------------------------------------------
 
-amuzesh
-clips opensource - fun - amuzesh - senario
+amuzesh clips opensource - fun - amuzesh - senario
 
 list az ghabl amade shode to telegram
