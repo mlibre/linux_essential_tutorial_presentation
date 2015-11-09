@@ -10,6 +10,51 @@ part 2:
 #efi must compelete
 after #gpt_mbr_image_efi add booting: gpt/mbr in uefi computer
 
-every thing is file
+
+part 3:
+create presentation
+
+
 all part:
 design: loading
+
+---------------------------------------------------------------------------------------------------
+
+last class:
+tedx stallman.
+torvalds ??
+fsf film
+linux news => new mint - gcc 5 - kernel 4 - revolution
+
+---------------------------------------------------------------------------------------------------
+
+eslahie:
+linus
+/bin
+octave
+lxde , ...
+
+---------------------------------------------------------------------------------------------------
+
+
+chizayi ke gofte beshe:
+
+shell - command - kernel - ls - pwd
+apt-get - apt-get source - apt-get install - apt-get upgrade - apt-get dist-upgrade - apt-get purge ...
+apt-cache search
+
+man - apropos
+
+gparted
+wine
+artha - goldendict
+development tools - atom
+
+every thing is file
+
+---------------------------------------------------------------------------------------------------
+
+amuzesh
+clips opensource - fun - amuzesh - senario
+
+list az ghabl amade shode to telegram
