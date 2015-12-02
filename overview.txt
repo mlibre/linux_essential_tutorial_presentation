@@ -1,0 +1,58 @@
+UID  &  GID
+
+/etc/passwd
+/etc/group
+
+who can change these two
+
+----------------
+each indivisual file have owner and group
+
+ps u
+
+-------------------
+chown  command ( change owner ) switch ---> -R
+
+chown  NEW_OWNER  filename
+chown  NEW_OWNER:NEW_GROUP  filename
+
+------------------------
+
+3 diffrent class for permissions
+
+	user			group 				others
+	r w x			r w x				r w x
+
+	1 1 1			1 1 1				1 1 1
+
+	  7				  7					  7
+
+first bit represent filetype
+
+------------------------------
+
+chmod  command
+chmod  PERMISSIONS  filename
+
+- set permission by number
+- set permission by letter
+
+-----------------------------
+umask
+umask  defaul_value
+
+files from 666
+folders from 777
+
+permanent umask change
+
+--------------------------------
+make files  undeletable
+
+chattr  command
+chattr  +i  filename
+chattr  -i   filename
+
+
+
+
