@@ -1,19 +1,54 @@
-this software/content/science is mainly release under the unlicense.
-but some material and text have another license.
-Please read this LICENSE file full, to find all thing about project license.
+this software/content/science is mainly release under the 4 license.
+but some material and text have another license. this mean the projecy have some exeptions.
+Please full read this LICENSE file, to find all thing about project license.
 
 ---------------------------------------------------------------------
 
-mainly license:
+main license:
 
-This is free and unencumbered software released into the unlicense.
+this document/software/content/patent/science/or anything/ is under the:
+
+1- GPLV3
+or
+2- public domain
+or
+3- CC0
+or
+4- a free license
+----------------------------------------------------------------------
+The contents of licenses:
+----------------------------------------------------------------------
+1-
+Copyright (C) <2016>  <mgh>
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+----------------------------------------------------------------------
+2-
+This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
 distribute this software, either in source code form or as a compiled
 binary, for any purpose, commercial or non-commercial, and by any
 means.
 
-anyone is free to leran/modify/copy/publish/use/compile/sell/distribute/or anything other/ about this software/content/science.
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
@@ -23,9 +58,41 @@ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+For more information, please refer to <http://unlicense.org/>
+
+----------------------------------------------------------------------
+3-
+The person who associated a work with this deed has dedicated the work to the public 
+domain by waiving all of his or her rights to the work worldwide
+under copyright law, including all related and neighboring rights, to the extent allowed by law.
+
+You can copy, modify, distribute and perform the work, even for commercial purposes,
+all without asking permission. See Other Information below.
+
+----------------------------------------------------------------------
+4-
+This is free and unencumbered software released into the unlicense.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+anyone free to leran/modify/copy/publish/use/compile/sell/distribute/or anything other/ about this 
+software/content/science/patent/document.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
 ---------------------------------------------------------------------
 
-this software/work created with impress.js under the mit and gpl license.
+other license.exeptions:
+---------------------------------------------------------------------
+this software/work use impress.js under the mit and gpl license.
 
 /**
  * impress.js

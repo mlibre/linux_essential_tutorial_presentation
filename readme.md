@@ -1,4 +1,4 @@
-# linux essential learning presentation for teaching
+#linux essential learning presentation for teaching
 linux essential learning presentation to teach linux.  
 useful for linux teacher.
 created with impress.js.
@@ -6,7 +6,7 @@ created with impress.js.
 download zip project and open index.html with good browser.
 
 see project:
-http://m-gh.github.io/linux_essential_presentation/index.html
+http://mlibre.github.io/linux_essential_tutorial_presentation/index.html  
 
 key:
 
