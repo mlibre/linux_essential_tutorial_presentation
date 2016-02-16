@@ -1,16 +1,15 @@
 this software/content/science is mainly release under the 4 license.
-but some material and text have another license. this mean the projecy have some exeptions.
-Please full read this LICENSE file, to find all thing about project license.
-
+but some material and text have another license. this mean the project have some exeptions.
+Please full read this license file, to find all thing about project license.
 ---------------------------------------------------------------------
 
 main license:
 
 this document/software/content/patent/science/or anything/ is under the:
 
-1- GPLV3
+1- GPLv3
 or
-2- public domain
+2- Public domain
 or
 3- CC0
 or
@@ -19,7 +18,7 @@ or
 The contents of licenses:
 ----------------------------------------------------------------------
 1-
-Copyright (C) <2016>  <mgh>
+Copyright (C) <2016>  <mlibre>
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -71,28 +70,20 @@ all without asking permission. See Other Information below.
 
 ----------------------------------------------------------------------
 4-
-This is free and unencumbered software released into the unlicense.
+This is free and unencumbered software/document/science/patent/other_things/ released on the no licensed.
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+Anyone is free to learn/modify/copy/publish/use/compile/sell/re-license/or anything other/ or
+distribute this software/content/science/patent/document/other_things/ either in source code form or as a compiled binary for any purpose, commercial or non-commercial or ... and by any means.
+.
 
-anyone free to leran/modify/copy/publish/use/compile/sell/distribute/or anything other/ about this 
-software/content/science/patent/document.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
 ---------------------------------------------------------------------
 
-other license.exeptions:
----------------------------------------------------------------------
-this software/work use impress.js under the mit and gpl license.
+other license. exeptions:
+#########################################
+
+this software/work use impress.js javascript framwork that released under the mit and gpl license.
 
 /**
  * impress.js
@@ -111,6 +102,37 @@ this software/work use impress.js under the mit and gpl license.
  *  url:     http://bartaz.github.com/impress.js/
  *  source:  http://github.com/bartaz/impress.js/
  */
+
+---------------------------------------------------------------------
+
+index.html, stylesheet.css file:
+
+These are derivate/modified.
+site: https://github.com/impress/impress.js/
+license: Released under the MIT Licenses.
+here is license:
+
+The MIT License (MIT)
+
+Copyright (c) 2011-2016 Bartek Szopka
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---------------------------------------------------------------------
 
@@ -408,7 +430,7 @@ license: https://creativecommons.org/licenses/by-sa/3.0/
 
 author: Kbolino at English Wikipedia
 title: GUID Partition Table Scheme
-Source : Transferred from en.wikipedia to Commons. Transfer was stated to be made by User:Kbolino.
+Source : Transferred from en.wikipedia to Commons. Transfer was stated to be made by User:Kbolino.
 	https://commons.wikimedia.org/wiki/File:GUID_Partition_Table_Scheme.svg#/media/File:GUID_Partition_Table_Scheme.svg
 license: Licensed under CC BY-SA 2.5 via Commons - link: http://creativecommons.org/licenses/by-sa/2.5/
 
