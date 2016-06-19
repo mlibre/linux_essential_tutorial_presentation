@@ -11,6 +11,6 @@ download zip project and open index.html with good browser.
 ##How it works:
 use **right arrow key** or **down arrow key** to go to the **next**.  
 use **left arrow key** or **up arrow key** to go to the **previous**.  
-use **space** to go to the **overview**.  
+use **space key** to go to the **overview**.  
 
 created with impress.js.
