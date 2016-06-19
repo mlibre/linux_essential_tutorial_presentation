@@ -1,15 +1,16 @@
 #linux essential learning presentation for teaching
-linux essential learning presentation to teach linux.  
-useful for linux teacher.
-created with impress.js.
+linux essential learning presentation for teaching linux.  
+this is useful for linux teacher.
 
+##see/use online:
+http://mlibre.github.io/linux_essential_tutorial_presentation/index.html
+
+##use/see offline:
 download zip project and open index.html with good browser.
 
-see project:
-http://mlibre.github.io/linux_essential_tutorial_presentation/index.html  
+##How it works:
+use **right arrow key** and **down arrow key** to go to the **next**.  
+use **left arrow key** and **up arrow key** to go to the **previous**.  
+use **space** to go to the **overview**.  
 
-key:
-
-right arrow and down arrow => next.  
-left arrow and up arrow => previous.  
-space => go to overview.  
+created with impress.js.
