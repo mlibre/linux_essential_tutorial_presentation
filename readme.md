@@ -9,8 +9,8 @@ http://mlibre.github.io/linux_essential_tutorial_presentation/index.html
 download zip project and open index.html with good browser.
 
 ##How it works:
-use **right arrow key** and **down arrow key** to go to the **next**.  
-use **left arrow key** and **up arrow key** to go to the **previous**.  
+use **right arrow key** or **down arrow key** to go to the **next**.  
+use **left arrow key** or **up arrow key** to go to the **previous**.  
 use **space** to go to the **overview**.  
 
 created with impress.js.
