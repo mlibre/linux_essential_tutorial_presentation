@@ -1,6 +1,6 @@
-#linux essential learning presentation for teaching
-linux essential learning presentation for teaching linux.  
-I hope this be very useful for linux teachers and Linux lovers.
+#Linux essential learning presentation for teaching
+Linux essential learning presentation for teaching Linux.  
+I hope this be very useful for Linux teachers and Linux lovers.
 
 ##see/use online:
 http://mlibre.github.io/linux_essential_tutorial_presentation/index.html

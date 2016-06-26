@@ -1,5 +1,5 @@
 This software/content/patent/science/or anything/ is mainly released under one of/two of/all of/... the 4 below licenses.
-but some material and text have another license. this mean the project have some exeptions.
+but some material and text have another license. this mean the project have some exceptions.
 Please full read this license file, to find all thing about project license.
 ---------------------------------------------------------------------
 mainly licenses:
@@ -79,11 +79,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---------------------------------------------------------------------
 
-Other license. exeptions:
+Other license. exceptions:
 #########################################
 
 #impress.js:
-This software/content/patent/science/or anything/ use impress.js javascript framwork that released under the mit and gpl license.
+This software/content/patent/science/or anything/ use impress.js JavaScript framework that released under the MIT and GPL license.
 
 /**
  * impress.js
@@ -106,7 +106,7 @@ This software/content/patent/science/or anything/ use impress.js javascript fram
 ---------------------------------------------------------------------
 
 #index.html, stylesheet.css:
-These files are derivate/modified by me.
+These files are derivative/modified by me.
 site: https://github.com/impress/impress.js
 license: MIT Licenses.
 MIT license:
@@ -147,35 +147,35 @@ http://scripts.sil.org/OFL
 
 ---------------------------------------------------------------------
 
-#debian logo:
+#Debian logo:
 
 "Openlogo-debianV2" by Debian Project - www.debian.org/logos/. Licensed under CC BY-SA 3.0 via Wikimedia Commons - 
 https://commons.wikimedia.org/wiki/File:Openlogo-debianV2.svg#/media/File:Openlogo-debianV2.svg
 
 ---------------------------------------------------------------------
 
-#GNU linux logo:
+#GNU Linux logo:
 
-orginal title: GNU/Linux For Newbies
+original title: GNU/Linux For Newbies
 Author: Posted by Babbzzz
 Source: http://www.geekstogo.com/2707/linux-for-newbies-part-1/
 License: http://creativecommons.org/licenses/by-nc/3.0/
 
 ---------------------------------------------------------------------
 #contents of index.html:
-From here to the end of the file(this file), various contents liceses is said.
+From here to the end of the file(this file), various contents licenses is said.
 
-When you see/open/go on every part of web_page/peresentation/project you see a URL like this(e.x):
+When you see/open/go on every part of web_page/presentation/project you see a URL like this(e.x):
 "http://mlibre.github.io/linux_essential_tutorial_presentation/index.html#/introduction"
 in address bar.
-any content license that we talk about that is splited by a "#" in URL.
+any content license that we talk about that is splitted by a "#" in URL.
 in our example it is:
 "introduction"
 ---------------------------------------------------------------------
 
 #/linux_distribution
 
-orginal title: Linux distribution
+original title: Linux distribution
 Author: From Wikipedia, the free encyclopedia
 Source: https://en.wikipedia.org/wiki/Linux_distribution
 License: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License 
@@ -195,7 +195,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0
 operating system"
 
 Author: Bt Richard Stallman
-orginal title: The GNU Project
+original title: The GNU Project
 Source: http://www.gnu.org/gnu/thegnuproject.en.html
 license: http://creativecommons.org/licenses/by-nd/4.0/
 
@@ -234,7 +234,7 @@ had their own operating systems, but none of them were free software "
 "This meant that the first step in using a computer was to promise not to help your neighbor"
 
 Author: Bt Richard Stallman
-orginal title: The GNU Project
+original title: The GNU Project
 Source: http://www.gnu.org/gnu/thegnuproject.en.html
 license: http://creativecommons.org/licenses/by-nd/4.0/
 
@@ -242,7 +242,7 @@ AND
 
 "ITS - assembly"
 
-this work is a derivate/modified.
+this work is a derivative/modified.
 author: From Wikipedia, the free encyclopedia
 title: Incompatible Timesharing System
 source: https://en.wikipedia.org/wiki/Incompatible_Timesharing_System
@@ -266,7 +266,7 @@ and
 "GNU's Not Unix"
 
 Author: Bt Richard Stallman
-orginal title: The GNU Project
+original title: The GNU Project
 Source: http://www.gnu.org/gnu/thegnuproject.en.html
 license: http://creativecommons.org/licenses/by-nd/4.0/
 
@@ -287,7 +287,7 @@ but I managed to adapt and use the C front end that I had written. But that was 
 years later; first, I worked on GNU Emacs."
 
 Author: Bt Richard Stallman
-orginal title: The GNU Project
+original title: The GNU Project
 Source: http://www.gnu.org/gnu/thegnuproject.en.html
 license: http://creativecommons.org/licenses/by-nd/4.0/
 
@@ -327,7 +327,7 @@ or GNU GPL for short."
 GNU software from being turned into proprietary software. The method we use is called “copyleft”."
 
 Author: Bt Richard Stallman
-orginal title: The GNU Project
+original title: The GNU Project
 Source: http://www.gnu.org/gnu/thegnuproject.en.html
 license: http://creativecommons.org/licenses/by-nd/4.0/
 
@@ -352,7 +352,7 @@ license: http://creativecommons.org/licenses/by-sa/3.0 license.
 "Assembly - c"
 "OS X - Unix-based"
 
-this work is a derivate/modified.
+this work is a derivative/modified.
 title: Operating system
 author: From Wikipedia, the free encyclopedia
 source: https://en.wikipedia.org/wiki/Operating_system
@@ -382,7 +382,7 @@ Licensed under CC BY-SA 3.0 via Commons - https://commons.wikimedia.org/wiki/Fil
 #/fhs_table_2
 #/fhs_table_3
 
-this work is a derivate/modified.
+this work is a derivative/modified.
 author: From Wikipedia, the free encyclopedia
 title: Filesystem Hierarchy Standard
 source: https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
@@ -420,7 +420,7 @@ license: http://creativecommons.org/licenses/by-nd/3.0/
 
 #/mbr_table
 
-This work is a derivate/modified by me.
+This work is a derivative/modified by me.
 author: From Wikipedia, the free encyclopedia
 title: Master boot record
 Source : https://en.wikipedia.org/wiki/Master_boot_record
