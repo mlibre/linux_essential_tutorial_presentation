@@ -1,60 +1,17 @@
 
 part 1:
-picture about command line and gui
-image next to the FHS
-know more: fsf - osi - richard stallman and torvalds picture
-درست کن پارت ۱ . مطالب مرنبط باشه. خوب باشه. درست باشه. پیوسته باشه.
+picture about command line and gui.
+image for fhs. 
+richard stallman and torvalds picture.
 
-part 2:
 #gpt_mbr_image_efi must be complete with EFI کاربرد
 #efi must compelete
 after #gpt_mbr_image_efi add booting: gpt/mbr in uefi computer
 
-
-part 3:
-create presentation
-
-part 4:
-create presentation
+part 2:
+tedx stallman.
+fsf 20 th film.
 
 all part:
 design: loading
 
----------------------------------------------------------------------------------------------------
-
-last class:
-tedx stallman.
-torvalds ??
-fsf film
-linux news => new mint - gcc 5 - kernel 4 - revolution
-
----------------------------------------------------------------------------------------------------
-
-eslahie:
-linus
-/bin
-octave
-lxde , ...
-
----------------------------------------------------------------------------------------------------
-
-chizayi ke gofte beshe:
-
-ls - pwd
-apt-get - apt-get source - apt-get install - apt-get upgrade - apt-get dist-upgrade - apt-get purge ...
-apt-cache search
-
-man - apropos
-
-gparted
-wine
-artha - goldendict
-development tools - atom
-
-every thing is file
-
----------------------------------------------------------------------------------------------------
-
-amuzesh clips opensource - fun - amuzesh - senario
-
-list az ghabl amade shode to telegram
