@@ -9,6 +9,7 @@ http://mlibre.github.io/linux_essential_tutorial_presentation/index.html
 * Download project in **zip** format
 * Extract file.
 * Open **index.html** file with good browser.
+
 ##How it works:
 use **right arrow key** or **down arrow key** to go to the **next**.  
 use **left arrow key** or **up arrow key** to go to the **previous**.  
