@@ -181,6 +181,18 @@
 		<img src="images/GUID_Partition_Table_Scheme.svg" width="40%" height="40%" style="margin-left: 25%;">
 	</div>
 
+	<!-- --------------------------- EFP --------------------------- -->
+	<div id="esp" class="step text_good" data-x="-460" data-y="1000" data-z="-1500" >
+        <strong> ESP </strong>
+        <p> efi system partiton </p>
+        <p> e.x file: grubx64.efi - binary file </p>
+        <p> Contains addition support for grub 2 </p>
+        
+        <br>
+        <strong> Grub 2 </strong>
+        <p> How grub 2 work with uefi and esp ?! perhaps: load stage 1 from ESP - load /boot/grub </p>
+	</div>
+
 	<!-- --------------------------- gpt mbr efi boot proccess image --------------------------- -->
 	<div id="gpt_mbr_image_efi" class="step text_good width_1400" data-x="-460" data-y="1000" data-z="-4000">
 		booting: gpt/mbr in bios based computer
