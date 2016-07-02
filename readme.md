@@ -3,11 +3,11 @@ Linux essential learning presentation for teaching Linux.
 I hope this be very useful for Linux teachers and Linux lovers.
 
 ## Table Of Contents
-+ [Requirments](#Requirments)
-+ [Downlaod Or See Online](#Downlaod-Or-See-Online)
-	+ [Download (Use Offline)](#Download (Use Offline))
-	+ [See Online](#See-Online)
-+ [Usage](#Usage)
++ [Requirments](#requirments)
++ [Downlaod Or See Online](#downlaod-Or-See-Online)
+	+ [Download (Use Offline)](#download (use offline))
+	+ [See Online](#see-online)
++ [Usage](#usage)
 
 ### Requirments
 + just a browser. chrome, firefox, ....
