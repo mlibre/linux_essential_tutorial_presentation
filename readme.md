@@ -5,20 +5,20 @@ I hope this be very useful for Linux teachers and Linux lovers.
 ## Table Of Contents
 + [Requirments](#Requirments)
 + [Downlaod Or See Online](#Downlaod-Or-See-Online)
+	+ [Download And Use Offline](#Download-And-Use-Offline)	
 	+ [See Online](#See-Online)
-	+ [Download And Use Offline](#Download-And-Use-Offline)
 + [Usage](#Usage)
 
 ### Requirments
 + just a browser. chrome, firefox, ....
 
 ### Downlaod Or See Online
++ <big>**Download And Use Offline**</big>
+	+ Download project in **zip** format. (or you can Clone it.)
+	+ Extract file.
+	+ Open **index.html** file with good browser.
 + <big>**See Online**</big>
 	+ http://mlibre.github.io/linux_essential_tutorial_presentation/index.html
-+ <big>**Download And Use Offline**</big>
-	+ **Download** project in **zip** format. (or you can **Clone** it.)
-	+ **Extract** file.
-	+ Open **index.html** file with good browser.
 
 ### Usage:
 :arrow_right: or :arrow_down: to go to the **next** slide.  
