@@ -8,12 +8,12 @@ I hope this be very useful for Linux teachers and Linux lovers.
 	+ Download (use offline)
 	+ See online
 + [Usage](#usage)
----
 
+---
 ### Requirments
 + just a browser. chrome, firefox, ....
----
 
+---
 ### Downlaod or See Online
 + <big>**Download (use offline)**</big>
 	+ Download project in **zip** format. (or you can Clone it.)
@@ -21,10 +21,11 @@ I hope this be very useful for Linux teachers and Linux lovers.
 	+ Open **index.html** file with good browser.
 + <big>**See online**</big>
 	+ http://mlibre.github.io/linux_essential_tutorial_presentation/index.html
----
 
+---
 ### Usage
 :arrow_right: or :arrow_down: to go to the **next** slide.  
 :arrow_left: or :arrow_up: to go to the **previous** slide.  
 **Space key** to go to the **overview**.
+
 ---
