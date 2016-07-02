@@ -31,6 +31,6 @@ I hope this be very useful for Linux teachers and Linux lovers.
 
 ---
 ### License
-This project mainly licensed in **Public Domain**. But i use some material that have **another licenses**, you can see **license file** for more detail.
+This project mainly has no license!. You may consider this as **Public Domain** or **CC0**. But I use some material that has **their own licenses**, you can see the **license file** for more detail.
 
 ---
