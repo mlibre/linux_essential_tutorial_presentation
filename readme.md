@@ -13,9 +13,9 @@ I hope this be very useful for Linux teachers and Linux lovers.
 + just a browser. chrome, firefox, ....
 
 ### Downlaod Or See Online
-+ ##### See Online
++ <big>**See Online**</big>
 	+ http://mlibre.github.io/linux_essential_tutorial_presentation/index.html
-+ ##### Download And Use Offline
++ <big>**Download And Use Offline**</big>
 	+ **Download** project in **zip** format. (or you can **Clone** it.)
 	+ **Extract** file.
 	+ Open **index.html** file with good browser.
