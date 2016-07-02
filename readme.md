@@ -12,7 +12,7 @@ I hope this be very useful for Linux teachers and Linux lovers.
 
 ---
 ### Requirments
-+ just a browser. chrome, firefox, ....
+> just a browser. chrome, firefox, ....
 
 ---
 ### Downlaod or See Online
