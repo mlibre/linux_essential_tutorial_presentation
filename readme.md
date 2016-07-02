@@ -8,6 +8,7 @@ I hope this be very useful for Linux teachers and Linux lovers.
 	+ Download (use offline)
 	+ See online
 + [Usage](#usage)
++ [License](#license)
 
 ---
 ### Requirments
@@ -27,5 +28,9 @@ I hope this be very useful for Linux teachers and Linux lovers.
 :arrow_right: or :arrow_down: to go to the **next** slide.  
 :arrow_left: or :arrow_up: to go to the **previous** slide.  
 **Space key** to go to the **overview**.
+
+---
+### License
+This project mainly licensed in **Public Domain**. But i use some material that have **another licenses**, you can see **license file** for more detail.
 
 ---
