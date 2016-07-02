@@ -25,9 +25,9 @@ I hope this be very useful for Linux teachers and Linux lovers.
 
 ---
 ### Usage
-:arrow_right: or :arrow_down: to go to the **next** slide.  
-:arrow_left: or :arrow_up: to go to the **previous** slide.  
-**Space key** to go to the **overview**.
++ :arrow_right: or :arrow_down: to go to the **next** slide.  
++ :arrow_left: or :arrow_up: to go to the **previous** slide.  
++ **Space key** to go to the **overview**.
 
 ---
 ### License
