@@ -4,7 +4,7 @@ I hope this be very useful for Linux teachers and Linux lovers.
 
 ## Table of Contents
 + [Requirments](#requirments)
-+ [Downlaod or See Online](#downlaod-or-see-online)
++ [Downlaod or see Online](#downlaod-or-see-online)
 	+ Download (use offline)
 	+ See online
 + [Usage](#usage)
@@ -12,10 +12,10 @@ I hope this be very useful for Linux teachers and Linux lovers.
 
 ---
 ### Requirments
-> just a browser. chrome, firefox, ....
++ Just a browser. like chrome, firefox, ....
 
 ---
-### Downlaod or See Online
+### Downlaod or see Online
 + <big>**Download (use offline)**</big>
 	+ Download project in **zip** format. (or you can Clone it.)
 	+ Extract file.
