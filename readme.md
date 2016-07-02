@@ -4,22 +4,22 @@ I hope this be very useful for Linux teachers and Linux lovers.
 
 ## Table Of Contents
 + [Requirments](#requirments)
-+ [Downlaod Or See Online](#downlaod-or-see-online)
-	+ Download (Use Offline)
-	+ See Online
++ [Downlaod or See Online](#downlaod-or-see-online)
+	+ Download (use offline)
+	+ See online
 + [Usage](#usage)
 
 ### Requirments
 ---
 + just a browser. chrome, firefox, ....
 
-### Downlaod Or See Online
+### Downlaod or See Online
 ---
-+ <big>**Download (Use Offline)**</big>
++ <big>**Download (use offline)**</big>
 	+ Download project in **zip** format. (or you can Clone it.)
 	+ Extract file.
 	+ Open **index.html** file with good browser.
-+ <big>**See Online**</big>
++ <big>**See online**</big>
 	+ http://mlibre.github.io/linux_essential_tutorial_presentation/index.html
 
 ### Usage
