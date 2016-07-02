@@ -4,9 +4,9 @@ I hope this be very useful for Linux teachers and Linux lovers.
 
 ## Table Of Contents
 + [Requirments](#requirments)
-+ [Downlaod Or See Online](#downlaod-Or-See-Online)
-	+ [Download (Use Offline)](#download (use offline))
-	+ [See Online](#see-online)
++ [Downlaod Or See Online](#downlaod-or-see-online)
+	+ Download (Use Offline)
+	+ See Online
 + [Usage](#usage)
 
 ### Requirments
