@@ -5,8 +5,8 @@ I hope this be very useful for Linux teachers and Linux lovers.
 ## Table of Contents
 + [Requirments](#requirments)
 + [Downlaod or see Online](#downlaod-or-see-online)
-	+ Download (use offline)
-	+ See online
+	+ download (use offline)
+	+ see online
 + [Usage](#usage)
 + [License](#license)
 
@@ -16,11 +16,11 @@ I hope this be very useful for Linux teachers and Linux lovers.
 
 ---
 ### Downlaod or see Online
-+ <big>**Download (use offline)**</big>
-	+ Download project in **zip** format. (or you can Clone it.)
-	+ Extract file.
-	+ Open **index.html** file with good browser.
-+ <big>**See online**</big>
++ <big>**download (use offline)**</big>
+	1. Download project in **zip** format. (or you can Clone it.)
+	2. Extract file.
+	3. Open **index.html** file with good browser.
++ <big>**see online**</big>
 	+ http://mlibre.github.io/linux_essential_tutorial_presentation/index.html
 
 ---
