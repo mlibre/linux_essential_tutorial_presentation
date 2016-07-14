@@ -1,6 +1,6 @@
 # Linux essential learning presentation
-Here is a nice, brief and essential tutorial presentation about Linux .  
-I hope this would be very useful for Linux teachers and Linux lovers.  
+Here is a nice, **brief** and **essential tutorial presentation** about **Linux**.  
+I hope this would be very useful for **Linux teachers** and **Linux lovers**.  
 Here is a quick link to presentation. [link](http://mlibre.github.io/linux_essential_tutorial_presentation/index.html)
 ## Table of Contents
 + [Requirments](#requirments)
