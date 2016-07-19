@@ -439,9 +439,36 @@ a:focus
 .impress-enabled          { pointer-events: none }
 .impress-enabled #impress { pointer-events: auto }
 
+.border_shadow
+{
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 0px 34px 4px rgba(0, 0, 0 , 17);
+}
+.center
+{
+    margin: 0 auto !important;
+    display: block !important;
+}
+.video
+{
+    width: 95% !important;
+    height: auto !important;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 0px 34px 4px rgba(0, 0, 0 , 17);
+}
 .width_1400
 {
 	width:1400px;
+}
+.width_90vw
+{
+	width:90vw;
+}
+.width_99vw
+{
+	width:99vw;
 }
 .ul_disc
 {

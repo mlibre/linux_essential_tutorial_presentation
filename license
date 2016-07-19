@@ -18,12 +18,13 @@ The contents of licenses:
 ----------------------------------------------------------------------
 
 1) CC0:
-The person who associated a work with this deed has dedicated the work to the public 
+The person who associated a work with this deed has dedicated the work to the public
 domain by waiving all of his or her rights to the work worldwide
 under copyright law, including all related and neighboring rights, to the extent allowed by law.
 
 You can copy, modify, distribute and perform the work, even for commercial purposes,
 all without asking permission
+
 ----------------------------------------------------------------------
 
 2) Public Domain:
@@ -51,6 +52,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>
+
 ----------------------------------------------------------------------
 
 3) A Free License:
@@ -62,6 +64,7 @@ distribute this document/software/content/patent/science/or anything/ either in 
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED.
+
 ----------------------------------------------------------------------
 
 4) GPLv3:
@@ -78,12 +81,13 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 ----------------------------------------------------------------------
 
-Other license. exceptions:
-#########################################
+Other license. exceptions
+##########################
 
-#impress.js:
+# impress.js:
 This software/content/patent/science/or anything/ use impress.js JavaScript framework that released under the MIT and GPL license.
 
 /**
@@ -100,13 +104,13 @@ This software/content/patent/science/or anything/ use impress.js JavaScript fram
  * ------------------------------------------------
  *  author:  Bartek Szopka
  *  version: 0.5.3
- *  url:     http://bartaz.github.com/impress.js/
+ *  URL:     http://bartaz.github.com/impress.js/
  *  source:  http://github.com/bartaz/impress.js/
  */
 
 ---------------------------------------------------------------------
 
-#index.html, stylesheet.css:
+# index.html , stylesheet.css:
 These files are derivative/modified by me.
 site: https://github.com/impress/impress.js
 license: MIT Licenses.
@@ -136,7 +140,7 @@ SOFTWARE.
 
 ---------------------------------------------------------------------
 
-#Font license:
+# Font license:
 
 font name: Amaranth font.
 source: http://www.fontsquirrel.com/fonts/amaranth
@@ -148,14 +152,17 @@ http://scripts.sil.org/OFL
 
 ---------------------------------------------------------------------
 
-#Debian logo:
+# Debian logo:
 
-"Openlogo-debianV2" by Debian Project - www.debian.org/logos/. Licensed under CC BY-SA 3.0 via Wikimedia Commons - 
-https://commons.wikimedia.org/wiki/File:Openlogo-debianV2.svg#/media/File:Openlogo-debianV2.svg
+"Openlogo-debianV2"
+By Debian Project - www.debian.org/logos/.
+License: CC BY-SA 3.0 via Wikimedia Commons.
+License link: https://creativecommons.org/licenses/by-sa/3.0/
+Source: https://commons.wikimedia.org/wiki/File:Openlogo-debianV2.svg#/media/File:Openlogo-debianV2.svg
 
 ---------------------------------------------------------------------
 
-#GNU Linux logo:
+# GNU Linux logo:
 
 original title: GNU/Linux For Newbies
 Author: Posted by Babbzzz
@@ -163,28 +170,27 @@ Source: http://www.geekstogo.com/2707/linux-for-newbies-part-1/
 License: http://creativecommons.org/licenses/by-nc/3.0/
 
 ---------------------------------------------------------------------
-#contents of index.html:
+
+# license for contents of index.html:
 From here to the end of the file(this file), various contents licenses is said.
 
-When you see/open/go on every part of web_page/presentation/project you see a URL like this(e.x):
-"http://mlibre.github.io/linux_essential_tutorial_presentation/index.html#/introduction"
-in address bar.
-any content license that we talk about that is splitted by a "#" in URL.
-in our example it is:
-"introduction"
+When you see/open/go on every part of web_page/presentation/project/index.html you see a URL like this(e.x):
+"http://mlibre.github.io/linux_essential_tutorial_presentation/index.html#/introduction" in address bar.
+Any content license that we talk about that is splitted by a "#" in URL.
+In our example it is "introduction".
 ---------------------------------------------------------------------
 
-#/linux_distribution
+# /linux_distribution
 
 original title: Linux distribution
 Author: From Wikipedia, the free encyclopedia
 Source: https://en.wikipedia.org/wiki/Linux_distribution
-License: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License 
+License: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
 License: http://creativecommons.org/licenses/by-sa/3.0
 
 ---------------------------------------------------------------------
 
-#/brief_history_of_linux
+# /brief_history_of_linux
 
 "In 1991, Linus Torvalds developed a Unix-compatible kernel and called it Linux."
 ,
@@ -192,15 +198,17 @@ License: http://creativecommons.org/licenses/by-sa/3.0
 ,
 "but in 1992, he made it free software;"
 ,
-"combining Linux with the not-quite-complete GNU system resulted in a complete free 
+"combining Linux with the not-quite-complete GNU system resulted in a complete free
 operating system"
 
-Author: Bt Richard Stallman
+Author: By Richard Stallman
 original title: The GNU Project
 Source: http://www.gnu.org/gnu/thegnuproject.en.html
 license: http://creativecommons.org/licenses/by-nd/4.0/
 
-AND
+---------------------------------------------------------------------
+
+# /brief_history_of_linux
 
 "received support and assistance from volunteers who succeeded in creating a complete and functional kernel"
 ,
@@ -214,127 +222,7 @@ license: http://creativecommons.org/licenses/by-sa/3.0 license.
 
 ---------------------------------------------------------------------
 
-#/gnu_1
-
-"When I started working at the MIT Artificial Intelligence Lab in 1971, 
-I became part of a software-sharing community that had existed for many years."
-,
-"As a member of this community, an AI Lab staff system hacker, my job was to improve this system."
-,
-"We did not call our software “free software”, because that term did not yet exist; but that is what it was."
-,
-"The collapse of the community"
-,
-"ITS were obsolete"
-,
-"The modern computers of the era, such as the VAX or the 68020, 
-had their own operating systems, but none of them were free software "
-,
-"sign a nondisclosure agreement even to get an executable copy."
-,
-"This meant that the first step in using a computer was to promise not to help your neighbor"
-
-Author: Bt Richard Stallman
-original title: The GNU Project
-Source: http://www.gnu.org/gnu/thegnuproject.en.html
-license: http://creativecommons.org/licenses/by-nd/4.0/
-
-AND
-
-"ITS - assembly"
-
-this work is a derivative/modified.
-author: From Wikipedia, the free encyclopedia
-title: Incompatible Timesharing System
-source: https://en.wikipedia.org/wiki/Incompatible_Timesharing_System
-license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-license: http://creativecommons.org/licenses/by-sa/3.0 license.
-
----------------------------------------------------------------------
-
-#/gnu_2
-
-"The rule made by the owners of proprietary software was, 
-“If you share with your neighbor, you are a pirate. If you want any changes, beg us to 
-make them.”
-The idea that the proprietary software social system—the system that says you are 
-not allowed to share or change software—is antisocial, that it is unethical, that it is simply wrong,"
-and
-"what was needed first was an operating system"
-and
-"make the system compatible with Unix"
-and
-"GNU's Not Unix"
-
-Author: Bt Richard Stallman
-original title: The GNU Project
-Source: http://www.gnu.org/gnu/thegnuproject.en.html
-license: http://creativecommons.org/licenses/by-nd/4.0/
-
----------------------------------------------------------------------
-
-#/gnu_3
-
-"I therefore decided that my first program for the GNU Project would be a multilanguage, multiplatform 
-compiler."
-,
-"I therefore decided that my first program for the GNU Project would be a multilanguage, multiplatform 
-compiler."
-,
-"I concluded I would have to write a new compiler from scratch."
-,
-"That new compiler is now known as GCC; none of the Pastel compiler is used in it, 
-but I managed to adapt and use the C front end that I had written. But that was some 
-years later; first, I worked on GNU Emacs."
-
-Author: Bt Richard Stallman
-original title: The GNU Project
-Source: http://www.gnu.org/gnu/thegnuproject.en.html
-license: http://creativecommons.org/licenses/by-nd/4.0/
-
-AND
-
-"GNU Compiler Collection"
-
-author: From Wikipedia, the free encyclopedia
-title: GNU Compiler Collection
-source: https://en.wikipedia.org/wiki/GNU_Compiler_Collection
-license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-license: http://creativecommons.org/licenses/by-sa/3.0.
-
----------------------------------------------------------------------
-
-/#copyleft
-
-In 1980, the copyright law was extended to computer programs in the United States
-
-author: From Wikipedia, the free encyclopedia
-title: Free and open-source software
-source: https://en.wikipedia.org/wiki/Free_and_open-source_software
-license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
-license: http://creativecommons.org/licenses/by-sa/3.0 license.
-
-AND
-
-"Copyleft uses copyright law, but flips it over to serve the opposite of its usual purpose: instead of a means 
-for restricting a program, it becomes a means for keeping the program free."
-,
-"The principal goal of GNU is to be free software."
-,
-"The specific implementation of copyleft that we use for most GNU software is the GNU General Public License, 
-or GNU GPL for short."
-,
-"So we needed to use distribution terms that would prevent 
-GNU software from being turned into proprietary software. The method we use is called “copyleft”."
-
-Author: Bt Richard Stallman
-original title: The GNU Project
-Source: http://www.gnu.org/gnu/thegnuproject.en.html
-license: http://creativecommons.org/licenses/by-nd/4.0/
-
----------------------------------------------------------------------
-
-#/linux_unix
+# /linux_unix
 
 "received support and assistance from volunteers who succeeded in creating a complete and functional kernel"
 ,
@@ -348,7 +236,7 @@ license: http://creativecommons.org/licenses/by-sa/3.0 license.
 
 ---------------------------------------------------------------------
 
-#/linux_unix
+# /linux_unix
 
 "Assembly - c"
 "OS X - Unix-based"
@@ -362,7 +250,142 @@ license: http://creativecommons.org/licenses/by-sa/3.0 license.
 
 ---------------------------------------------------------------------
 
-#/fhs_start
+# /gnu_1
+
+"When I started working at the MIT Artificial Intelligence Lab in 1971,
+I became part of a software-sharing community that had existed for many years."
+,
+"As a member of this community, an AI Lab staff system hacker, my job was to improve this system."
+,
+"We did not call our software “free software”, because that term did not yet exist; but that is what it was."
+,
+"The collapse of the community"
+,
+"ITS were obsolete"
+,
+"The modern computers of the era, such as the VAX or the 68020,
+had their own operating systems, but none of them were free software "
+
+Author: By Richard Stallman
+original title: The GNU Project
+Source: http://www.gnu.org/gnu/thegnuproject.en.html
+license: http://creativecommons.org/licenses/by-nd/4.0/
+
+---------------------------------------------------------------------
+
+# /gnu_1
+
+"ITS - assembly"
+
+this work is a derivative/modified.
+author: From Wikipedia, the free encyclopedia
+title: Incompatible Timesharing System
+source: https://en.wikipedia.org/wiki/Incompatible_Timesharing_System
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+license: http://creativecommons.org/licenses/by-sa/3.0 license.
+
+---------------------------------------------------------------------
+
+# /gnu_1_5
+
+"sign a nondisclosure agreement even to get an executable copy."
+,
+"This meant that the first step in using a computer was to promise not to help your neighbor"
+
+Author: By Richard Stallman
+original title: The GNU Project
+Source: http://www.gnu.org/gnu/thegnuproject.en.html
+license: http://creativecommons.org/licenses/by-nd/4.0/
+
+---------------------------------------------------------------------
+
+# /gnu_2
+
+"The rule made by the owners of proprietary software was,
+“If you share with your neighbor, you are a pirate. If you want any changes, beg us to
+make them.”
+The idea that the proprietary software social system—the system that says you are
+not allowed to share or change software—is antisocial, that it is unethical, that it is simply wrong,"
+,
+"what was needed first was an operating system"
+,
+"make the system compatible with Unix"
+,
+"GNU's Not Unix"
+
+Author: By Richard Stallman
+original title: The GNU Project
+Source: http://www.gnu.org/gnu/thegnuproject.en.html
+license: http://creativecommons.org/licenses/by-nd/4.0/
+
+---------------------------------------------------------------------
+
+# /gnu_3
+
+"I therefore decided that my first program for the GNU Project would be a multilanguage, multiplatform
+compiler."
+,
+"I therefore decided that my first program for the GNU Project would be a multilanguage, multiplatform
+compiler."
+,
+"I concluded I would have to write a new compiler from scratch."
+,
+"That new compiler is now known as GCC; none of the Pastel compiler is used in it,
+but I managed to adapt and use the C front end that I had written. But that was some
+years later; first, I worked on GNU Emacs."
+
+Author: By Richard Stallman
+original title: The GNU Project
+Source: http://www.gnu.org/gnu/thegnuproject.en.html
+license: http://creativecommons.org/licenses/by-nd/4.0/
+
+---------------------------------------------------------------------
+
+# /gnu_3
+
+"GNU Compiler Collection"
+
+author: From Wikipedia, the free encyclopedia
+title: GNU Compiler Collection
+source: https://en.wikipedia.org/wiki/GNU_Compiler_Collection
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+license: http://creativecommons.org/licenses/by-sa/3.0.
+
+---------------------------------------------------------------------
+
+/ #copyleft
+
+In 1980, the copyright law was extended to computer programs in the United States
+
+author: From Wikipedia, the free encyclopedia
+title: Free and open-source software
+source: https://en.wikipedia.org/wiki/Free_and_open-source_software
+license: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+license: http://creativecommons.org/licenses/by-sa/3.0 license.
+
+---------------------------------------------------------------------
+
+/ #copyleft
+
+"Copyleft uses copyright law, but flips it over to serve the opposite of its usual purpose: instead of a means
+for restricting a program, it becomes a means for keeping the program free."
+,
+"The principal goal of GNU is to be free software."
+,
+"The specific implementation of copyleft that we use for most GNU software is the GNU General Public License,
+or GNU GPL for short."
+,
+"So we needed to use distribution terms that would prevent
+GNU software from being turned into proprietary software. The method we use is called “copyleft”."
+
+Author: By Richard Stallman
+original title: The GNU Project
+Source: http://www.gnu.org/gnu/thegnuproject.en.html
+license: http://creativecommons.org/licenses/by-nd/4.0/
+
+---------------------------------------------------------------------
+
+# /fhs_start
 
 author: From Wikipedia, the free encyclopedia
 title: Filesystem Hierarchy Standard
@@ -372,16 +395,33 @@ license: http://creativecommons.org/licenses/by-sa/3.0.
 
 ---------------------------------------------------------------------
 
-#/linux_structure_image
+# /linux_structure_image
 
 Free and open-source-software display servers and UI toolkits" by Shmuel Csaba Otto Traian.
 Licensed under CC BY-SA 3.0 via Commons - https://commons.wikimedia.org/wiki/File:Free_and_open-source-software_display_servers_and_UI_toolkits.svg#/media/File:Free_and_open-source-software_display_servers_and_UI_toolkits.svg
 
 ---------------------------------------------------------------------
 
-#/fhs_table_1
-#/fhs_table_2
-#/fhs_table_3
+# /30_birthday_FSF
+
+Author: Free Software Foundation
+Title: User Liberation: Watch and share our new video
+Source: https://www.fsf.org/blogs/community/user-liberation-watch-and-share-our-new-video
+License: https://creativecommons.org/licenses/by-sa/4.0/
+
+---------------------------------------------------------------------
+
+# /stallman_ted
+
+Author: Richard Stallman TEDx video
+Source: https://www.fsf.org/blogs/rms/20140407-geneva-tedx-talk-free-software-free-society
+license: https://creativecommons.org/licenses/by-nd/3.0/
+
+---------------------------------------------------------------------
+
+# /fhs_table_1
+# /fhs_table_2
+# /fhs_table_3
 
 this work is a derivative/modified.
 author: From Wikipedia, the free encyclopedia
@@ -392,7 +432,7 @@ license: http://creativecommons.org/licenses/by-sa/3.0
 
 ---------------------------------------------------------------------
 
-#/shell_concept_example
+# /shell_concept_example
 
 "The shell accepts human readable commands and translates them into something the kernel can read and process."
 author: http://bash.cyberciti.biz/guide/What_is_Linux_Shell
@@ -402,24 +442,15 @@ license: under the http://creativecommons.org/licenses/by-nc-sa/3.0/ license.
 
 ---------------------------------------------------------------------
 
-#/Linux_kernel_input_output
-"Linux kernel and gaming input-output latency" 
-by Shmuel Csaba Otto Traian. 
-Licensed under CC BY-SA 3.0 via Commons - 
+# /Linux_kernel_input_output
+"Linux kernel and gaming input-output latency"
+by Shmuel Csaba Otto Traian.
+Licensed under CC BY-SA 3.0 via Commons -
 https://commons.wikimedia.org/wiki/File:Linux_kernel_and_gaming_input-output_latency.svg#/media/File:Linux_kernel_and_gaming_input-output_latency.svg
 
 ---------------------------------------------------------------------
 
-#/fsf_statement
-
-title: Stand up for your freedom to install free software
-source: http://www.fsf.org/campaigns/secure-boot-vs-restricted-boot/statement
-author:  Free Software Foundation - http://www.fsf.org/
-license: http://creativecommons.org/licenses/by-nd/3.0/
-
----------------------------------------------------------------------
-
-#/mbr_table
+# /mbr_table
 
 This work is a derivative/modified by me.
 author: From Wikipedia, the free encyclopedia
@@ -430,7 +461,7 @@ license: https://creativecommons.org/licenses/by-sa/3.0/
 
 ---------------------------------------------------------------------
 
-#/gpt_image
+# /gpt_image
 
 author: Kbolino at English Wikipedia
 title: GUID Partition Table Scheme
@@ -440,10 +471,9 @@ license: Licensed under CC BY-SA 2.5 via Commons - link: http://creativecommons.
 
 ---------------------------------------------------------------------
 
-#/gpt_mbr_image_efi
+# /gpt_mbr_image_efi
 
 title: GNU GRUB components
 author: Shmuel Csaba Otto Traian.
 Source: https://commons.wikimedia.org/wiki/File:GNU_GRUB_components.svg#/media/File:GNU_GRUB_components.svg
 Licensed under CC BY-SA 3.0 via Commons - link: https://creativecommons.org/licenses/by-sa/3.0/
-

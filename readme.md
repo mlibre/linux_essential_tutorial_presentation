@@ -1,12 +1,12 @@
 # Linux essential learning presentation
 Here is a nice, **brief** and **essential tutorial presentation** about **Linux**.  
 I hope this would be very useful for **Linux teachers** and **Linux lovers**.  
-Here is a quick link to presentation. **[Link](http://mlibre.github.io/linux_essential_tutorial_presentation/index.html)**
+
 ## Table of Contents
 + [Requirments](#requirments)
 + [Downlaod or see Online](#downlaod-or-see-online)
-	+ download (use offline)
-	+ see online
+	+ Download (use offline)
+	+ See online
 + [Usage](#usage)
 + [License](#license)
 
@@ -16,11 +16,11 @@ Here is a quick link to presentation. **[Link](http://mlibre.github.io/linux_ess
 
 ---
 ### Downlaod or see Online
-+ <big>**download (use offline)**</big>
++ <big>**Download (use offline)**</big>
 	1. Download project in **zip** format. (or you can Clone it.)
 	2. Extract file.
 	3. Open **index.html** file with good browser.
-+ <big>**see online**</big>
++ <big>**See online**</big>
 	+ http://mlibre.github.io/linux_essential_tutorial_presentation/index.html
 
 ---
