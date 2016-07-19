@@ -1,7 +1,7 @@
 # Linux essential learning presentation
 Here is a nice, **brief** and **essential tutorial presentation** about **Linux**.  
 I hope this would be very useful for **Linux teachers** and **Linux lovers**.  
-Here is a quick link to presentation. **[Link](http://mlibre.github.io/linux_essential_tutorial_presentation/)**
+Here is a quick link to presentation. **[Link](http://mlibre.github.io/linux_essential_tutorial_presentation/index.html)**
 
 ## Table of Contents
 + [Requirments](#requirments)
@@ -22,7 +22,7 @@ Here is a quick link to presentation. **[Link](http://mlibre.github.io/linux_ess
 	2. Extract file.
 	3. Open **index.html** file with good browser.
 + <big>**See online**</big>
-	+ http://mlibre.github.io/linux_essential_tutorial_presentation/
+	+ http://mlibre.github.io/linux_essential_tutorial_presentation/index.html
 
 ---
 ### Usage
