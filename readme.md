@@ -5,7 +5,7 @@ Here is a quick link to the presentation. **[Link](http://mlibre.github.io/linux
 
 ## Table of Contents
 + [Requirments](#requirments)
-+ [Downlaod or View Online](#downlaod-or-see-online)
++ [Downlaod or View Online](#downlaod-or-view-online)
 	+ Download (use offline)
 	+ View Online
 + [Usage](#usage)
