@@ -439,6 +439,8 @@ a:focus
 .impress-enabled          { pointer-events: none }
 .impress-enabled #impress { pointer-events: auto }
 
+/* My style sheet */
+
 .border_shadow
 {
     border: 1px solid rgba(0, 0, 0, .3);
@@ -447,7 +449,11 @@ a:focus
 }
 .center
 {
-    margin: 0 auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+
     display: block !important;
 }
 .video
