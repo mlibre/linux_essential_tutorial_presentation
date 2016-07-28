@@ -1,0 +1,211 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Linux Essentials</title>
+
+	<meta name="description" content="Linux Essentials presentation (tutorial)" />
+	<meta name="author" content="mlibre" />
+	<meta name="email" content="m.gh@linuxmail.org" />
+
+    <link href="web_files/css/font.css" rel="stylesheet" />
+    <link href="web_files/css/stylesheet.css" rel="stylesheet" />
+    <link href="web_files/css/table.css" rel="stylesheet" />
+
+    <link rel="icon" href="resource/images/linux_essential.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>It seems <b>page is loading</b>.</p>
+    <p>If message not gone, probably your browser <b>doesn't support the features required</b> so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chromium/Chrom</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <!-- --------------------------- overview --------------------------- -->
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+    <!-- --------------------------- introduction --------------------------- -->
+    <div id="introduction" class="step slide" data-x="-1500" data-y="-1500">
+		<img src="resource/images/king-penguin.jpg" alt="i love GNU" width="100%" height="100%" style="border-radius:1%">
+	</div>
+
+	<!-- --------------------------- BIOS --------------------------- -->
+	<div id="bios" class="step slide" data-x="-500" data-y="-1500">
+        <strong> BIOS </strong>
+        <br>
+        <br>
+        <ul class="ul_disc" style="margin-left: 10%;">
+			<li> Basic Input Output System - 1975 </li>
+			<li> Software stored on a small chip on the motherboard - ROM - flash memory </li>
+			<li> Rewritable ( flash memory ) </li>
+			<li> First software run when computer power on </li>
+        </ul>
+        <br>
+
+        <strong> BIOS steps </strong>
+        <br>
+        <br>
+		<ul class="ul_disc" style="margin-left: 10%;">
+			<li> Initialize and test the system hardware </li>
+			<li> Load a bootloader or an operating system </li>
+			<li> Runtime service for operating system - keyboard, display, input/output device , etc.
+			but it don't use with linux, windows and ... </li>
+			<li> Config hardware - change boot order - view fan speed - etc </li>
+        </ul>
+    </div>
+
+	<!-- --------------------------- BIOS image --------------------------- -->
+	<div id="bios_image" class="step" data-x="-500" data-y="-1500" data-z="-2000">
+		<img src="resource/images/Award_BIOS_setup_utility.png" style="width:100%;height:100%">
+	</div>
+
+	<!-- --------------------------- UEFI --------------------------- -->
+	<div id="uefi" class="step slide" data-x="500" data-y="-1500">
+        <strong> UEFI </strong>
+        <br>
+        <ul class="ul_disc" style="margin-left: 10%;">
+			<li> Unified Extensible Firmware Interface </li>
+            <li> Replace with traditional BIOS - 2014 </li>
+			<li> Software interface between an operating system and firmware </li>
+			<li> Initializing/Booting computer before passing to operting system </li>
+		</ul>
+        <br>
+
+        <strong> Advantages </strong>
+        <br>
+		<ul class="ul_disc" style="margin-left: 10%;">
+			<li> Faster boot </li>
+			<li> Runtime service - available for os loader or os </li>
+			<li> Firmware validation method - which boot code is secure </li>
+			<li> Better interface </li>
+			<li> Mouse, Network, ... </li>
+			<li> Boot from GPT </li>
+			<li> CMS - compability Support Module - bios-based computer(os installed) </li>
+        </ul>
+    </div>
+
+	<!-- --------------------------- Secure boot --------------------------- -->
+    <div id="secure_boot" class="step slide" data-x="1500" data-y="-1500">
+        <strong> Secure boot </strong>
+        <br>
+        <br>
+        <ul class="ul_disc" style="margin-left: 10%;">
+			<li> UEFI protocol </li>
+			<li> Secure "boot code" </li>
+			<li> Validate program with it's own key </li>
+			<li> Prevent malware from launching at boot time </li>
+		</ul>
+		<br>
+
+		<strong> Secure boot or restricted boot ? </strong>
+        <br>
+        <br>
+        <ul class="ul_disc" style="margin-left: 10%;">
+			<li> enable/disable secure boot. </li>
+			<li> run prgoram's that doesn't have certificate key. </li>
+			<li> can't install os that doesn't have certificate key. </li>
+        </ul>
+    </div>
+
+	<!-- ---------------------------  GPT MBR partition tables  --------------------------- -->
+    <div id="gpt_mbr" class="step text_good" data-x="-200" data-y="400" data-scale="4">
+        <span class="mbr"> master boot record </span>
+        <h1> GPT </h1>
+        <span class="footnote"><sup>*</sup> EFI system partition </span>
+    </div>
+
+	<!-- --------------------------- master boot record --------------------------- -->
+	<div id="master_boot_record" class="step text_good width_1400" data-x="-800" data-y="-300" data-z="-2000" >
+		<strong> MBR </strong>
+		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> Master Boot Record </li>
+			<li> Boot sector at fist sector of mass storage - preceding the first partition </li>
+			<li> Contain executable code to run operating system or passing to loader's second stage like grub </li>
+		</ul>
+
+		<br>
+		<strong> MBR Content </strong>
+		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> Partition table </li>
+			<li> Bootstarp code - passing to bootable partition loader, ... </li>
+		</ul>
+
+		<br>
+		<strong> MBR information </strong>
+		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> Number of partition - 4 primary </li>
+			<li> Size of partition ( 2 TB - max ) </li>
+		</ul>
+	</div>
+
+	<!-- --------------------------- master boot record detail --------------------------- -->
+	<div id="mbr_table" class="step width_1400 text_good" data-x="0" data-y="-100" data-z="-1000">
+		<table style="float:right;width:49%" class="table" summary="Structure of a classical generic MBR"><caption> Structure of a classical generic MBR </caption><thead class="thead"><tr><th colspan="2"> Address </th><th rowspan="2" style="vertical-align:middle" colspan="2"> Description </th><th rowspan="2" style="vertical-align:middle"> Size<br>(bytes) </th></tr><tr><th style="width:100px;border-radius: 0px;">Hex</th><th style="width:100px;border-radius: 0px;">Dec</th></tr></thead><tr><td style="text-align:center"><tt>+000h</tt></td><td style="text-align:center">+0</td><td colspan="2" class="text_center"> Bootstrap code area </td><td style="text-align:center">446</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1BEh"></span><span id="P1"></span><tt>+1BEh</tt></td><td style="text-align:center">+446</td><td style="text-align:center"><a href="#PTE">Partition entry</a> #1</td><td rowspan="4" style="vertical-align:middle; text-align:center"><i>Partition table</i><br>(for primary partitions)</td><td style="text-align:center">16</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1CEh"></span><span id="P2"></span><tt>+1CEh</tt></td><td style="text-align:center">+462</td><td style="text-align:center"><a href="#PTE">Partition entry</a> #2</td><td style="text-align:center">16</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1DEh"></span><span id="P3"></span><tt>+1DEh</tt></td><td style="text-align:center">+478</td><td style="text-align:center"><a href="#PTE">Partition entry</a> #3</td><td style="text-align:center">16</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1EEh"></span><span id="P4"></span><tt>+1EEh</tt></td><td style="text-align:center">+494</td><td style="text-align:center"><a href="#PTE">Partition entry</a> #4</td><td style="text-align:center">16</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1FEh"></span><tt>+1FEh</tt></td><td style="text-align:center">+510</td><td style="text-align:center"><tt>55h</tt></td><td rowspan="2" style="vertical-align:middle; text-align:center"><i>Boot signature</i><sup id="cite_ref-NB_Magic_AA55_14-0" class="reference"><a href="#cite_note-NB_Magic_AA55-14"><span>[</span>a<span>]</span></a></sup></td><td rowspan="2" style="text-align:center">2</td></tr><tr><td style="text-align:center"><span id="MBROLD_OFS_1FFh"></span><tt>+1FFh</tt></td><td style="text-align:center">+511</td><td style="text-align:center"><tt>AAh</tt></td></tr><tr><td colspan="4"></td><td style="text-align:center">512</td></tr></table>
+		<img src="resource/images/mbr.svg" style="width:49%;float:left;border-radius:5%;margin-top: 11%;">
+	</div>
+
+	<!-- --------------------------- GPT --------------------------- -->
+	<div id="gpt" class="step text_good" data-x="-1730" data-y="250" data-z="-900" >
+		<strong> GPT </strong>
+		<ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> GUID Partition Table </li>
+            <li> Replace with MBR </li>
+			<li> Part of EFI standard </li>
+			<li> 2*64 - max disk size - 128 partition ( could be more than it )</li>
+        </ul>
+
+        <br>
+        <strong> GPT content </strong>
+        <ul class="ul_disc" style="margin-left: 10%; font-size:30px;">
+			<li> sector 0 for mbr protective - GPT header begin from sector 1 from hard disk - entries </li>
+			<li> copy header and entries at end of the disk </li>
+		</ul>
+	</div>
+
+	<!-- --------------------------- gpt image --------------------------- -->
+	<div id="gpt_image" class="step width_1400" data-x="-1750" data-y="250" data-z="-2500">
+		<img src="resource/images/GUID_Partition_Table_Scheme.svg" width="40%" height="40%" style="margin-left: 25%;">
+	</div>
+
+	<!-- --------------------------- gpt mbr efi boot proccess image --------------------------- -->
+	<div id="gpt_mbr_image_efi" class="step text_good width_1400" data-x="-460" data-y="1000" data-z="-4000">
+		booting: gpt/mbr in bios based computer
+		<img src="resource/images/GNU_GRUB_components.svg" width="90%" height="90%" style="margin-left: 0%;">
+	</div>
+
+    <!-- --------------------------- FHS wikipedia table --------------------------- -->
+    <div id="fhs_table_1" class="step width_1400" data-x="9000" data-y="1400" data-rotate-y="-90" data-rotate-x="-90" data-scale="3">
+        <table class="table text_good" summary="A description of the hierarchy specified in the FHS."> <thead class="thead"> <tr> <th> Directory </th> <th> Description </th> </tr></thead> <tr><td> <dl> <dd> <code> / </code> </dd> </dl> </td><td> Primary hierarchy root and root directory of the entire file system hierarchy. </td></tr><tr><td> <dl> <dd> <code> /bin </code> </dd> </dl> </td><td> Essential command binaries that need to be available in single user mode; for all users, e.g., cat, ls, cp. </td></tr><tr><td> <dl> <dd> <code> /boot </code> </dd> </dl> </td><td> Boot loader files, e.g., kernels, initrd. </td></tr><tr><td> <dl> <dd> <code> /dev </code> </dd> </dl> </td><td> Essential devices, e.g., /dev/null. </td></tr><tr><td> <dl> <dd> <code> /etc </code> </dd> </dl> </td><td> Host-specific system-wide configuration files <br/> <p> There has been controversy over the meaning of the name itself. In early versions of the UNIX Implementation Document from Bell labs, /etc is referred to as the etcetera directory, <sup> <a> <span> [ </span> 2 <span>] </span> </a> </sup> as this directory historically held everything that did not belong elsewhere (however, the FHS restricts /etc to static configuration files and may not contain binaries). <sup> <a> <span> [ </span> 3 <span>] </span> </a> </sup> Since the publication of early documentation, the directory name has been re-explained in various ways. Recent interpretations include backronyms such as "Editable Text Configuration" or "Extended Tool Chest". </p></td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /etc/X11 </code> </dd> </dl> </dd> </dl> </td><td> Configuration files for the X Window System, version 11. </td></tr><tr> <td> <dl> <dd> <code> /home </code> </dd> </dl> </td><td> Users'home directories, containing saved files, personal settings, etc. </td></tr><tr> <td> <dl> <dd> <code> /lib </code> </dd> </dl> </td><td>Libraries essential for the binaries in <code> /bin/ </code> and <code> /sbin/ </code> . </td></tr><tr> <td> <dl> <dd> <code> /media </code> </dd> </dl> </td><td> Mount points for removable media such as CD-ROMs(appeared in FHS-2.3). </td></tr><tr> <td> <dl> <dd> <code> /mnt </code> </dd> </dl> </td><td> Temporarily mounted filesystems. </td></tr></table>
+    </div>
+    <div id="fhs_table_2" class="step width_1400" data-x="9000" data-y="1400" data-z="-1800" data-rotate-y="-90" data-rotate-x="-90" data-scale="3">
+		 <table class="table text_good"> <tr> <td> <dl> <dd> <code> /opt </code> </dd> </dl> </td><td> Optional application software packages. </td></tr><tr> <td> <dl> <dd> <code>/proc </code> </dd> </dl> </td><td> Virtual filesystem providing process and kernel information as files. In Linux, corresponds to a procfs mount. </td></tr><tr> <td> <dl> <dd> <code> /root </code> </dd> </dl> </td><td>Home directory for the root user. </td></tr><tr> <td> <dl> <dd> <code> /run </code> </dd> </dl> </td><td> Run-time variable data: Information about the running system since last boot, <i> e.g. </i> , currently logged-in users and running daemons. </td></tr><tr> <td> <dl> <dd> <code> /sbin </code> </dd> </dl> </td><td> Essential system binaries, <i> e.g. </i> , fsck, init, route. </td></tr><tr> <td> <dl> <dd> <code> /tmp </code> </dd> </dl> </td><td> Temporary files (see also <code> /var/tmp </code> ). Often not preserved between system reboots, and may be severely size restricted. </td></tr><tr> <td> <dl> <dd> <code> /usr </code> </dd> </dl> </td><td> <i> Secondary hierarchy </i> for read-only user data; contains the majority of (multi-)user utilities and applications. </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /usr/bin </code> </dd> </dl> </dd> </dl> </td><td> Non-essential command binaries (not needed in single user mode); for all users. </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /usr/include </code> </dd> </dl> </dd> </dl> </td><td> Standard include files. </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /usr/lib </code> </dd> </dl> </dd> </dl> </td><td>Libraries for the binaries in <code> /usr/bin/ </code> and <code> /usr/sbin/ </code> . </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /usr/local </code> </dd> </dl> </dd> </dl> </td><td> <i> Tertiary hierarchy </i> for local data, specific to this host. Typically has further subdirectories, <i> e.g. </i> , <code> bin/ </code> , <code> lib/ </code> , <code> share/ </code> . </td></tr></table>
+    </div>
+    <div id="fhs_table_3" class="step width_1400" data-x="9000" data-y="1400" data-z="-3600" data-rotate-y="-90" data-rotate-x="-90" data-scale="3">
+		 <table class="table text_good"> <tr> <td> <dl> <dd> <dl> <dd> <code> /usr/sbin </code> </dd> </dl> </dd> </dl> </td><td> Non-essential system binaries, e.g., daemons for various network-services. </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /usr/share </code> </dd> </dl> </dd> </dl> </td><td> Architecture-independent (shared) data. example: docs, icons, font, ... </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /usr/src </code> </dd> </dl> </dd> </dl> </td><td>Source code, <i> e.g. </i> , the kernel source code with its header files. </td></tr><tr> <td> <dl> <dd> <code> /var </code> </dd> </dl> </td><td> Variable files—files whose content is expected to continually change during normal operation of the system—such as logs, spool files, and temporary e-mail files. </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /var/cache </code> </dd> </dl> </dd> </dl> </td><td> Application cache data. Such data are locally generated as a result of time-consuming I/O or calculation. The application must be able to regenerate or restore the data. The cached files can be deleted without loss of data. </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /var/lib </code> </dd> </dl> </dd> </dl> </td><td> State information. Persistent data modified by programs as they run, e.g., databases, packaging system metadata, etc. </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /var/lock </code> </dd> </dl> </dd> </dl> </td><td> Lock files. Files keeping track of resources currently in use. </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /var/log </code> </dd> </dl> </dd> </dl> </td><td> Log files. Various logs. </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /var/mail </code> </dd> </dl> </dd> </dl> </td><td> Users'mailboxes. </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /var/opt </code> </dd> </dl> </dd> </dl> </td><td> Variable data from add-on packages that are stored in <code> /opt/ </code> . </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /var/spool </code> </dd> </dl> </dd> </dl> </td><td>Spool for tasks waiting to be processed, <i> e.g. </i> , print queues and outgoing mail queue. </td></tr><tr> <td> <dl> <dd> <dl> <dd> <code> /var/tmp </code> </dd> </dl> </dd> </dl> </td><td> Temporary files to be preserved between reboots. </td></tr></table>
+    </div>
+
+    <!-- --------------------------- pervious page --------------------------- -->
+    <div id="pervious_page" class="step" data-x="-3700" data-y="4900" data-scale="1">
+        <a href="index.html" class="page_a">
+            <img class="image" src="resource/images/pervious_page.png">
+            <div class="font_180 text_good">pervious page</div>
+        </a>
+    </div>
+
+</div>
+
+<div class="hint">
+    <p> Linux essential tutorial part 2 </p>
+</div>
+
+<script src="web_files/js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
