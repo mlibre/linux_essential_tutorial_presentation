@@ -37,6 +37,6 @@ This project mainly has no license! You may consider this as **Public Domain**, 
 
 ---
 ### Donate Bitcoin
-My **Bitcoin Wallet** Address: `1AHL9xkqMwVmp5uZoMy4PbRHJ4wMX1pqdy`.
+My **Bitcoin Wallet** Address: `1AHL9xkqMwVmp5uZoMy4PbRHJ4wMX1pqdy`
 
 ---
