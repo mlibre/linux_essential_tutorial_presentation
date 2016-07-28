@@ -4,19 +4,20 @@ I hope this would be very useful for **Linux teachers** and **Linux lovers**.
 Here is a quick link to the presentation. **[Link](http://mlibre.github.io/linux_essential_tutorial_presentation/index.html)**
 
 ## Table of Contents
-+ [Requirments](#requirments)
-+ [Downlaod or View Online](#downlaod-or-view-online)
++ [Requirements](#requirements)
++ [Download or View Online](#download-or-view-online)
 	+ Download (use offline)
 	+ View Online
 + [Usage](#usage)
 + [License](#license)
++ [Donate](#donate-bitcoin)
 
 ---
-### Requirments
+### Requirements
 + Just a browser. like chrome, firefox, etc... .
 
 ---
-### Downlaod or View Online
+### Download or View Online
 + <big>**Download (use offline version)**</big>
 	1. Download project in **zip** format. (or you can Clone it.)
 	2. Extract the file.
@@ -35,3 +36,5 @@ Here is a quick link to the presentation. **[Link](http://mlibre.github.io/linux
 This project mainly has no license! You may consider this as **Public Domain**, **CC0** or **unlicense**. But I use some material that has **their own licenses**, you can see the **license file** for more details.
 
 ---
+### Donate Bitcoin
+My **Bitcoin Wallet** Address: `1AHL9xkqMwVmp5uZoMy4PbRHJ4wMX1pqdy`.
