@@ -1,5 +1,5 @@
-# Linux Essential Learning Presentation
-Here is a nice, **brief** and **essential tutorial presentation** about **Linux**.
+# Linux Essential Tutorial Presentation
+Here is a nice, **brief** essential tutorial presentation about **Linux**.
 I hope it be very useful for **Linux teachers** or **Linux lovers**.  
 Quick link to the presentation. **[Link](http://mlibre.github.io/linux_essential_tutorial_presentation/index.html)**
 
@@ -33,7 +33,7 @@ Quick link to the presentation. **[Link](http://mlibre.github.io/linux_essential
 
 ---
 ### License
-This project mainly has no license! You may consider this as **Public Domain**, **CC0** or **unlicense**. But I use some material that has **their own licenses**, you can see the **license file** for more details.
+This project mainly has no license! You may consider this as **Public Domain**, **CC0** or **unlicense**. But I use some materials, they have **their own licenses**, you can see the **license file** for more details.
 
 ---
 ### Donate Bitcoin
