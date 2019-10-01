@@ -36,7 +36,8 @@ Quick link to the presentation. **[Link](http://mlibre.github.io/linux_essential
 This project mainly has no license! You may consider this as **Public Domain**, **CC0** or **unlicense**. But I use some materials, they have **their own licenses**, you can see the **license file** for more details.
 
 ---
-### Donate Bitcoin
-My **Bitcoin Wallet** Address: `1AHL9xkqMwVmp5uZoMy4PbRHJ4wMX1pqdy`
+## Donate
+My Bitcoin Address:
+> 3JfNjydkEgKGjsnrU1SoCCAv1q2yTuCoDY
 
 ---
