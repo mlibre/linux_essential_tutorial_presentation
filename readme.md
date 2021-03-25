@@ -35,8 +35,9 @@ Quick link to the presentation. **[Link](http://mlibre.github.io/linux_essential
 This project mainly has no license! You may consider this as **Public Domain**, **CC0** or **unlicense**. But I use some materials, they have **their own licenses**, you can see the **license file** for more details.
 
 ---
-### Donate or ...
-My ETH Address:
+Donate or .... :heartpulse:
+=======
+ETH:
 > 0xc9b64496986E7b6D4A68fDF69eF132A35e91838e
 
 ---
